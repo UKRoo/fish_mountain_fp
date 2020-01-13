@@ -7,8 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "chart.js": "^2.9.3",
     "core-js": "^3.4.4",
+    "jquery": "^3.4.1",
+    "jquery-migrate": "^3.1.0",
     "mdbootstrap": "^4.11.0",
+    "popper.js": "^1.16.0",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
