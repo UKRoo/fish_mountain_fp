@@ -3,6 +3,10 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import 'mdbootstrap/js/jquery.js'
+import 'mdbootstrap/js/popper.js'
+import 'mdbootstrap/js/bootstrap.js'
+import 'mdbootstrap/js/mdb.js'
 
 Vue.config.productionTip = false
 
