@@ -8,7 +8,7 @@ import 'mdbootstrap/js/jquery.js'
 import '@/assets/js/slick.js'
 import 'mdbootstrap/js/popper.js'
 import 'mdbootstrap/js/bootstrap.js'
-import 'mdbootstrap/js/mdb.js'
+// import 'mdbootstrap/js/mdb.js'
 
 Vue.config.productionTip = false
 
