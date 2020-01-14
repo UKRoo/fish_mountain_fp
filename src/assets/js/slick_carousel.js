@@ -11,8 +11,8 @@ import $ from 'jquery';
         centerMode: true,
         slidesToScroll: 2,
         touchMove: true,
-        prevArrow: "<img src='img/arrow-point-to-left.png' class='slick-prev' alt='1'>",
-        nextArrow: "<img src='img/arrow-point-to-right.png' class='slick-next' alt='2'>",
+        prevArrow: "<img src='@/assets/img/arrow-point-to-left.png' class='slick-prev' alt='1'>",
+        nextArrow: "<img src='@/assets/img/arrow-point-to-right.png' class='slick-next' alt='2'>",
       });
       $(".view").slick({
         dots: false,
@@ -24,8 +24,8 @@ import $ from 'jquery';
         centerMode: true,
         slidesToScroll: 2,
         touchMove: true,
-        prevArrow: "<img src='img/arrow-point-to-left.png' class='slick-prev' alt='1'>",
-        nextArrow: "<img src='img/arrow-point-to-right.png' class='slick-next' alt='2'>",
+        prevArrow: "<img src='@/assets/img/arrow-point-to-left.png' class='slick-prev' alt='1'>",
+        nextArrow: "<img src='@/assets/img/arrow-point-to-right.png' class='slick-next' alt='2'>",
       });
 
 

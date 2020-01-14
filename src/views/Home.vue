@@ -3,8 +3,8 @@
     <MainCarousel />
     <MainBrand />
     <MainMain />
-    <MainLiked />
-    <MainViewed />
+    <!-- <MainLiked /> -->
+    <!-- <MainViewed /> -->
 
     <MainAbout />
     
