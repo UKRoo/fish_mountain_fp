@@ -3,8 +3,8 @@
     <MainCarousel />
     <MainBrand />
     <MainMain />
-    <!-- <MainLiked /> -->
-    <!-- <MainViewed /> -->
+    <MainLiked />
+    <MainViewed />
 
     <MainAbout />
     
@@ -17,6 +17,7 @@ import MainBrand from '@/components/MainBrand.vue'
 import MainMain from '@/components/MainMain.vue'
 import MainLiked from '@/components/MainLiked.vue'
 import MainViewed from '@/components/MainViewed.vue'
+
 
 import MainAbout from '@/components/MainAbout.vue'
 

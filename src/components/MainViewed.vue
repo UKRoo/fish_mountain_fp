@@ -133,3 +133,27 @@
     </section>
   </section>
 </template>
+
+<script>
+import JQuery from 'jquery'
+window.$ = JQuery
+export default {
+  
+    mounted() {
+        $(".view").slick({
+        dots: false,
+        slidesToShow: 6,
+        slidesToScroll: 5,
+        initialSlide: 2,
+        draggable: true,
+        focusOnSelect: true,
+        centerMode: true,
+        slidesToScroll: 2,
+        touchMove: true,
+        prevArrow: "<img src='@/assets/img/arrow-point-to-left.png' class='slick-prev' alt='1'>",
+        nextArrow: "<img src='@/assets/img/arrow-point-to-right.png' class='slick-next' alt='2'>",
+      });
+
+    }
+};
+</script>
