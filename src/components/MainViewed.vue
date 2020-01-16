@@ -150,6 +150,7 @@ export default {
         centerMode: true,
         slidesToScroll: 2,
         touchMove: true,
+        arrows: false,
         // prevArrow: "<img src='@/assets/img/rectangle_1.png' class='slick-prev' alt='1'>",
         // nextArrow: "<img src='@/assets/img/arrow-point-to-right.png' class='slick-next' alt='2'>",
       });

@@ -317,6 +317,8 @@ footer {
   overflow: hidden;
   background-color: $base-bg-color;
   padding-top: 5px;
+  justify-content: flex-start;
+  align-content: space-between;
 }
 
 .categories a {
