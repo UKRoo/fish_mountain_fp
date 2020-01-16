@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <MainHeader />
+    <Header />
     <router-view/>
-    <MainFooter />
+    <Footer />
     <ModalLogin />
     <ModalCart />
     <ModalWish />
@@ -11,16 +11,16 @@
 </template>
 <script>
 // @ is an alias to /src
-import MainHeader from '@/components/MainHeader.vue'
-import MainFooter from '@/components/MainFooter.vue'
-import ModalLogin from '@/components/ModalLogin.vue'
-import ModalCart from '@/components/ModalCart.vue'
-import ModalWish from '@/components/ModalWish.vue'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+import ModalLogin from '@/components/modal/ModalLogin.vue'
+import ModalCart from '@/components/modal/ModalCart.vue'
+import ModalWish from '@/components/modal/ModalWish.vue'
 
 export default {
   name: 'app',
   components: {
-    MainHeader, MainFooter, ModalLogin, ModalCart, ModalWish
+    Header, Footer, ModalLogin, ModalCart, ModalWish
   }
 }
 </script>

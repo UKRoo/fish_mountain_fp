@@ -2,29 +2,26 @@
   <div class="home">
     <MainCarousel />
     <MainBrand />
-    <MainMain />
+    <Main />
     <MainLiked />
     <MainViewed />
-
     <MainAbout />
     
   </div>
 </template>
 
 <script>
-import MainCarousel from '@/components/MainCarousel.vue'
-import MainBrand from '@/components/MainBrand.vue'
-import MainMain from '@/components/MainMain.vue'
-import MainLiked from '@/components/MainLiked.vue'
-import MainViewed from '@/components/MainViewed.vue'
-
-
-import MainAbout from '@/components/MainAbout.vue'
+import MainCarousel from '@/components/main/Carousel'
+import MainBrand from '@/components/main/Brand'
+import Main from '@/components/main/Main'
+import MainLiked from '@/components/main/Liked'
+import MainViewed from '@/components/main/Viewed'
+import MainAbout from '@/components/main/About'
 
 export default {
   name: 'home',
   components: {
-    MainCarousel, MainBrand, MainMain, MainAbout, MainLiked, MainViewed 
+    MainCarousel, MainBrand, Main, MainAbout, MainLiked, MainViewed 
   },
   
 }

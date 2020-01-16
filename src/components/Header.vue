@@ -66,9 +66,10 @@
         <a href="#" id="categories-img"><img src="@/assets/img/logo.png" alt="logo"><br>in adventure we trust</a>
         <div>
           <a href="#women">Women</a>
-          <a href="#men">Men</a>
+          <a href="/man">Men</a>
           <a href="#kids">Kids</a>
           <a href="#sale"><b>Sale</b></a>
+          <a href="#contact">Contact us</a>
           <!-- <a href="#"> </a> -->
           <!-- <a href="#footwear">us</a> -->
         </div>
