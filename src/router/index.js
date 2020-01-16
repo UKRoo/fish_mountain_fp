@@ -10,12 +10,13 @@ const routes = [
   {
     path: '/',
     name: 'home',
+    meta: {layout: 'main'},
     component: Home
   },
   {
     path: '/man',
     name: 'man',
-    component: Man
+    component: () => import('../views/ManProduct')
   }
 ]
 

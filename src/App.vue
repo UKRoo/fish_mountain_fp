@@ -1,26 +1,23 @@
 <template>
   <div id="app">
-    <Header />
-    <router-view/>
-    <Footer />
-    <ModalLogin />
-    <ModalCart />
-    <ModalWish />
-
-  </div>
+    <component :is="layout">
+     <router-view/>
+    </component>
+  </div> 
 </template>
+
 <script>
-// @ is an alias to /src
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import ModalLogin from '@/components/modal/ModalLogin.vue'
-import ModalCart from '@/components/modal/ModalCart.vue'
-import ModalWish from '@/components/modal/ModalWish.vue'
+import MainLayout from '@/layouts/MainLayout'
 
 export default {
-  name: 'app',
+  computed: {
+    layout() {
+      console.log(this.$route.meta)
+      return (this.$route.meta.layout || 'main') + '-layout'
+    }
+  },
   components: {
-    Header, Footer, ModalLogin, ModalCart, ModalWish
+    MainLayout
   }
 }
 </script>
