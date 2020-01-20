@@ -833,3 +833,30 @@ header {
     cursor: pointer;
   }
   
+
+  //!!
+  .fs-container-prod {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  }
+  .product-search {
+    width: 280px;
+    height: 490px;
+    background-color: green;
+  }
+  .main-goods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .main-goods__tile {
+    width: 280px;
+    border: 1px;
+    background-color: red;
+    img {
+
+    }
+  }

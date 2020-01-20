@@ -23,9 +23,9 @@
             <div class="_dropdown-content">
               <router-link
                 v-for="clothing_link in clothing_links"
-                :key="clothing_link.url"
+                :key="clothing_link.title"
                 tag="a"
-                :to="clothing_link.url"
+                :to="`${clothing_link.cat}/${clothing_link.subcat}`"
               >{{clothing_link.title}}</router-link>
             </div>
           </div>
@@ -37,9 +37,9 @@
             <div class="_dropdown-content">
               <router-link
                 v-for="footwear_link in footwear_links"
-                :key="footwear_link.url"
+                :key="footwear_link.cat"
                 tag="a"
-                :to="footwear_link.url"
+                :to="`${footwear_link.cat}/${footwear_link.subcat}`"
               >{{footwear_link.title}}</router-link>
             </div>
           </div>
@@ -52,9 +52,9 @@
             <div class="_dropdown-content">
               <router-link
                 v-for="equipment_link in equipment_links"
-                :key="equipment_link.url"
+                :key="equipment_link.cat"
                 tag="a"
-                :to="equipment_link.url"
+                :to="`${equipment_link.cat}/${equipment_link.subcat}`"
               >{{equipment_link.title}}</router-link>
             </div>
           </div>
@@ -66,13 +66,13 @@
           <br />in adventure we trust
         </a>
         <div>
-          <a href="/women">Women</a>
-          <a href="/man">Men</a>
-          <a href="/kids">Kids</a>
-          <a href="/sale">
+          <a href="/women/">Women</a>
+          <a href="/man/">Men</a>
+          <a href="/kids/">Kids</a>
+          <a href="/sale/">
             <b>Sale</b>
           </a>
-          <a href="/contact">Contact us</a>
+          <a href="/contact/">Contact us</a>
         </div>
       </div>
       <ModalBlock />
@@ -89,30 +89,30 @@ export default {
   },
   data: () => ({
     clothing_links: [
-      { title: "All clothing", url: "/clothing" },
-      { title: "Coats & Jackets", url: "/clothing/coats-jackets" },
-      { title: "T-Shirts & Singlets", url: "/clothing/t-shirts-singlets" },
-      { title: "Tops", url: "/clothing/tops" },
-      { title: "Bottoms", url: "/clothing/bottoms" },
-      { title: "Swimwear", url: "/clothing/swimwear" },
-      { title: "See More...", url: "/clothing" }
+      { title: "All clothing", cat: "clothing", subcat: "" },
+      { title: "Coats & Jackets", cat: "clothing", subcat: "coats-jackets" },
+      { title: "T-Shirts & Singlets", cat: "clothing", subcat: "t-shirts-singlets" },
+      { title: "Tops", cat: "clothing", subcat: "tops" },
+      { title: "Bottoms", cat: "clothing", subcat: "bottoms" },
+      { title: "Swimwear", cat: "clothing", subcat: "swimwear" },
+      // { title: "See More...", cat: "/clothing" }
     ],
     footwear_links: [
-      { title: "All footwear", url: "/footwear" },
-      { title: "Trekking footwear", url: "/footwear/trekking" },
-      { title: "Hiking shoes", url: "/footwear/hiking-shoes" },
-      { title: "Winter boots", url: "/footwear/winter-boots" },
-      { title: "Multifunctional shoes", url: "/footwear/multifunctional-shoes" },
-      { title: "Leisure shoes", url: "/footwear/leisure-shoes" },
-      { title: "See More...", url: "/footwear" },
+      { title: "All footwear", cat: "footwear", subcat: ""  },
+      { title: "Trekking footwear", cat: "footwear", subcat: "trekking"  },
+      { title: "Hiking shoes", cat: "footwear", subcat: "hiking-shoes"  },
+      { title: "Winter boots", cat: "footwear", subcat: "winter-boots"  },
+      { title: "Multifunctional shoes", cat: "footwear", subcat: "multifunctional-shoes"  },
+      { title: "Leisure shoes", cat: "footwear", subcat: "leisure-shoes"  },
+      // { title: "See More...", cat: "/footwear" },
     ],
     equipment_links: [
-      { title: "All Equipment", url: "/equipment" },
-      { title: "Camping & Fishing", url: "/equipment/camping-fishing" },
-      { title: "Exercise & Fitness", url: "/equipment/exercise-fitness" },
-      { title: "Swimming & Water Sports", url: "/equipment/swimming-water-sports" },
-      { title: "Hiking & Trekking", url: "/equipment/hiking-trekking" },
-      { title: "See More...", url: "/equipment" },
+      { title: "All Equipment", cat: "equipment", subcat: ""  },
+      { title: "Camping & Fishing", cat: "equipment", subcat: "camping-fishing"  },
+      { title: "Exercise & Fitness", cat: "equipment", subcat: "exercise-fitness"  },
+      { title: "Swimming & Water Sports", cat: "equipment", subcat: "swimming-water-sports"  },
+      { title: "Hiking & Trekking", cat: "equipment", subcat: "hiking-trekking"  },
+      // { title: "See More...", cat: "/equipment" },
     ]
   })
 };
