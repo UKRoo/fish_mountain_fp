@@ -111,6 +111,7 @@ body {
     color: $base-yellow;
     margin-bottom: 18px;
   }
+
   i:hover {
     transform: scale(1.2);
   }
@@ -132,6 +133,7 @@ body {
   margin-top: 78px;
   margin-bottom: 50px;
   vertical-align: middle;
+
   a:hover {
     opacity: 0.5;
     transform: scale(1.1);
@@ -242,7 +244,7 @@ footer {
   width: 59.8%;
   color: $base-purple;
   height: 100%;
-  background-color:#C4C4C4;
+  background-color: #C4C4C4;
 
   h3 {
     font-family: Muli;
@@ -412,6 +414,7 @@ footer {
     color: $base-purple;
     padding-left: 12px;
   }
+
   a:hover {
     transform: scale(1.2);
   }
@@ -739,7 +742,7 @@ footer {
     display: none;
     height: 153px;
     background-color: #FFFFFF;
-    
+
 
     .product-color {
       display: flex;
@@ -751,12 +754,14 @@ footer {
         margin: 5px;
       }
     }
+
     .product-info {
       h3 {
         margin-top: 9px;
         margin-bottom: 5px;
       }
     }
+
     .price-cart {
       float: center;
       margin-top: 4px;
@@ -774,9 +779,10 @@ footer {
 .product-sl:hover {
   cursor: pointer;
   transform: scale(1.002);
-  transform: translate(0,-10px);
+  transform: translate(0, -10px);
   transition: all 0.5s ease-in-out;
-   .product-view {
+
+  .product-view {
     display: block;
   }
 }
@@ -786,22 +792,24 @@ header {
   background-color: #FBFBFB;
   height: 145px;
 }
+
 .modal-login {
 
-.nav-item{
-  a {
-    font-family: Muli;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.06em;
-    color: #302640 !important;
-      }
-}
+  .nav-item {
+    a {
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.06em;
+      color: #302640 !important;
+    }
+  }
 
 
 }
+
 .fs-custom-control-label {
   font-family: Muli;
   font-style: normal;
@@ -811,52 +819,81 @@ header {
   letter-spacing: 0.06em;
   color: #9C9C9C;
   margin-bottom: 10px !important;
+}
+
+.fs-login-font {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #9C9C9C;
+}
+
+.mt-mb-5 {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  vertical-align: middle;
+}
+
+.fa-times:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+//!!
+.fs-container-prod {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.main-goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.main-goods__tile {
+  width: 280px;
+  border: 1px;
+  // background-color: red;
+
+  img {}
+}
+
+.product-search {
+  width: 280px;
+  height: 490px;
+
+  .card-header {
+    background-color: #FFFFFF;
+    width: 280px;
+    padding: 7px 1px;
   }
 
-  .fs-login-font {
+  .btn {
+    text-decoration: none;
+  }
+  .mb-0 {
+    font-size: 18px !important;
+
+  }
+  .btn-link {
     font-family: Muli;
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px !important;
-    line-height: 22px;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 23px;
+    text-align: center;
     letter-spacing: 0.06em;
-    color: #9C9C9C;
+    color: #302640;
   }
-
-  .mt-mb-5 {
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-    vertical-align: middle;
-  } 
-  .fa-times:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-  
-
-  //!!
-  .fs-container-prod {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-  }
-  .product-search {
-    width: 280px;
-    height: 490px;
-    background-color: green;
-  }
-  .main-goods {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-  }
-  .main-goods__tile {
-    width: 280px;
-    border: 1px;
-    background-color: red;
-    img {
-
-    }
-  }
+}
+.custom-control-input{
+  background-color: red;
+}

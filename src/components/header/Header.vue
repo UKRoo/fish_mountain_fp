@@ -37,7 +37,7 @@
             <div class="_dropdown-content">
               <router-link
                 v-for="footwear_link in footwear_links"
-                :key="footwear_link.cat"
+                :key="footwear_link.title"
                 tag="a"
                 :to="`${footwear_link.cat}/${footwear_link.subcat}`"
               >{{footwear_link.title}}</router-link>
@@ -52,7 +52,7 @@
             <div class="_dropdown-content">
               <router-link
                 v-for="equipment_link in equipment_links"
-                :key="equipment_link.cat"
+                :key="equipment_link.title"
                 tag="a"
                 :to="`${equipment_link.cat}/${equipment_link.subcat}`"
               >{{equipment_link.title}}</router-link>

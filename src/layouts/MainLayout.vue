@@ -10,10 +10,10 @@
 </template>
 <script>
 import Header from "@/components/header/Header";
-import Footer from "@/components/Footer.vue";
-import ModalLogin from "@/components/modal/ModalLogin.vue";
-import ModalCart from "@/components/modal/ModalCart.vue";
-import ModalWish from "@/components/modal/ModalWish.vue";
+import Footer from "@/components/footer/Footer";
+import ModalLogin from "@/components/modal/ModalLogin";
+import ModalCart from "@/components/modal/ModalCart";
+import ModalWish from "@/components/modal/ModalWish";
 
 export default {
   components: {
