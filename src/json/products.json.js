@@ -1,10 +1,11 @@
 export default [
   {
     "id": "1",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "categories": "clothing",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -22,9 +23,10 @@ export default [
       {
     "id": "2",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -42,9 +44,10 @@ export default [
       {
     "id": "3",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -62,9 +65,10 @@ export default [
       {
     "id": "4",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -82,9 +86,10 @@ export default [
       {
     "id": "5",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -102,9 +107,10 @@ export default [
       {
     "id": "6",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -122,9 +128,10 @@ export default [
       {
     "id": "7",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -142,9 +149,10 @@ export default [
       {
     "id": "8",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -162,9 +170,10 @@ export default [
       {
     "id": "9",
     "categories": "clothing",
-    "title": "jacket",
+    "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
-    "gender": "man",
+    "activity": "Outdoors",
+    "gender": "male",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
