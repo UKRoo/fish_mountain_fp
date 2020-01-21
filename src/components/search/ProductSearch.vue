@@ -22,6 +22,7 @@ import Material from "@/components/search/aside/Material";
 import Technology from "@/components/search/aside/Technology";
 import Brand from "@/components/search/aside/Brand";
 
+
 export default {
   components: {
     Gender,

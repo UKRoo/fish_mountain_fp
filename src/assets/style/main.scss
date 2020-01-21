@@ -877,10 +877,12 @@ header {
   .btn {
     text-decoration: none;
   }
+
   .mb-0 {
     font-size: 18px !important;
 
   }
+
   .btn-link {
     font-family: Muli;
     font-style: normal;
@@ -892,19 +894,76 @@ header {
     color: #302640;
   }
 }
-.custom-control-input:checked ~ .custom-control-label::before {
+
+.custom-control-input:checked~.custom-control-label::before {
   color: #fff;
   border-color: rgba(48, 38, 64, 0.349);
-  background-color: rgba(48, 38, 64, 0.582); }
-.custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(48, 38, 64, 0.233); }
-.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #aab5d2; }
-.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+  background-color: rgba(48, 38, 64, 0.582);
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem rgba(48, 38, 64, 0.233);
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+  border-color: #aab5d2;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
   color: #fff;
   background-color: #cbd2e4;
-  border-color: #cbd2e4; }
-.custom-control-input:disabled ~ .custom-control-label {
-  color: #6c757d; }
-  .custom-control-input:disabled ~ .custom-control-label::before {
-    background-color: #e9ecef; }
+  border-color: #cbd2e4;
+}
+
+.custom-control-input:disabled~.custom-control-label {
+  color: #6c757d;
+}
+
+.custom-control-input:disabled~.custom-control-label::before {
+  background-color: #e9ecef;
+}
+
+//! TopNav Module
+.product-nav {
+  ol {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+
+    li {
+      margin-left: 10px;
+    }
+  }
+}
+
+//! TopBanner
+.top-banner {
+  background: transparent url("assets/img/top_banner.png") no-repeat center;
+  height: 234px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 39px;
+
+  .fs-container {
+    .top-banner-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      div {
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #302640;
+      }
+    }
+  }
+}

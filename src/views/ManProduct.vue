@@ -1,6 +1,8 @@
 <template>
   <section>
-    <div class="fs-container fs-container-prod">
+    <TopNav />
+    <TopBanner />
+      <div class="fs-container-prod fs-container">
       <ProductSearch />
       <div class="main-goods">
         <div v-for="item in items" :key="item.id" class="main-goods__tile" :id="item.id">
@@ -12,7 +14,8 @@
   
         </div>
       </div>
-    </div>
+      </div>
+
     <!-- <img :src="require('@/assets/img/product_1.jpg')" /> -->
   </section>
 </template>
@@ -20,6 +23,9 @@
 import products from "@/json/products.json.js";
 import ProductSearch from "@/components/search/ProductSearch"
 import Footer from "@/components/footer/Footer";
+import TopNav from "@/components/search/nav/TopNav";
+import TopBanner from "@/components/search/nav/TopBanner";
+
 
 
 export default {
@@ -29,7 +35,7 @@ export default {
     };
   },
   components: {
-    ProductSearch
+    ProductSearch, TopNav,TopBanner
   }
 };
 </script>
