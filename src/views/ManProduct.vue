@@ -4,11 +4,11 @@
       <div class="product-search">a</div>
       <div class="main-goods">
         <div v-for="item in items" :key="item.id" class="main-goods__tile" :id="item.id">
-          <a :href="`${item.categories}/product-id-${item.id}`" >
+          <router-link :to="`${item.categories}/product-id-${item.id}`" :tag="a" >
             <img :src="`${item.img_main_url}`" alt />
-            <p>{{item.title}}</p>
-          </a>
-             <button v-on:click="greet">Поприветствовать</button>
+            <p class="text-center">{{item.title}}</p>
+          </router-link>
+             <!-- <button @click="greet">Поприветствовать</button> -->
 
         </div>
       </div>
@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     greet: function() {
-      alert(id)
+      alert(items.id)
     }
   }
 };
