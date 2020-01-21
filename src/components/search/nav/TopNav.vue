@@ -11,9 +11,9 @@
 </template>
 <script>
 export default {
-     data () {
-        return console.log(this.$route)
-        // return console.log(window.location.href)
-    }
+    //  data () {
+    //     return console.log(this.$route)
+    //     // return console.log(window.location.href)
+    // }
 }
 </script>

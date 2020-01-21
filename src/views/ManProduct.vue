@@ -6,9 +6,10 @@
       <ProductSearch />
       <div class="main-goods">
         <div v-for="item in items" :key="item.id" class="main-goods-tile" :id="item.id">
-          <router-link :to="`${item.categories}/product-id-${item.id}`" :tag="a">
-            <img :src="`${item.img_main_url}`" alt />
-          </router-link>
+
+          <a :href="`${item.categories}/product-id-${item.id}`">
+            <img :src="`${item.img_main_url}`" :alt="`${item.title}`" />
+          </a>
           <div class="main-goods-tile-desc">
           <div class="text-center">
             <div><i class="fas fa-square-full"></i></div>
@@ -33,10 +34,10 @@ import TopBanner from "@/components/search/nav/TopBanner";
 import SubcategoryDescription from "@/components/products/SubcategoryDescription";
 
 export default {
-  data() {
+  data: function () {
     return {
       items: products
-    };
+    }
   },
   components: {
     ProductSearch,
