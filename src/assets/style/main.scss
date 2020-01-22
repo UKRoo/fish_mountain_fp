@@ -399,10 +399,7 @@ footer {
   display: block;
 }
 
-.test {
-  margin-top: 50px;
-  z-index: 1;
-}
+
 
 .icons {
   padding-right: 24px;
@@ -1043,4 +1040,8 @@ header {
     padding-bottom: 100px;
 
   }
+}
+.fs-flex-center {
+  display: flex;
+  justify-content: center;
 }

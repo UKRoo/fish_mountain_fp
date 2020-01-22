@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="fs-container">
-      <div class="categories flex-sa">
+      <div class="categories fs-flex-center">
         <div>
           <div class="_dropdown">
             <button class="_dropbtn">
@@ -91,27 +91,51 @@ export default {
     clothing_links: [
       { title: "All clothing", cat: "clothing", subcat: "" },
       { title: "Coats & Jackets", cat: "clothing", subcat: "coats-jackets" },
-      { title: "T-Shirts & Singlets", cat: "clothing", subcat: "t-shirts-singlets" },
+      {
+        title: "T-Shirts & Singlets",
+        cat: "clothing",
+        subcat: "t-shirts-singlets"
+      },
       { title: "Tops", cat: "clothing", subcat: "tops" },
       { title: "Bottoms", cat: "clothing", subcat: "bottoms" },
-      { title: "Swimwear", cat: "clothing", subcat: "swimwear" },
+      { title: "Swimwear", cat: "clothing", subcat: "swimwear" }
       // { title: "See More...", cat: "/clothing" }
     ],
     footwear_links: [
-      { title: "All footwear", cat: "footwear", subcat: ""  },
-      { title: "Trekking footwear", cat: "footwear", subcat: "trekking"  },
-      { title: "Hiking shoes", cat: "footwear", subcat: "hiking-shoes"  },
-      { title: "Winter boots", cat: "footwear", subcat: "winter-boots"  },
-      { title: "Multifunctional shoes", cat: "footwear", subcat: "multifunctional-shoes"  },
-      { title: "Leisure shoes", cat: "footwear", subcat: "leisure-shoes"  },
+      { title: "All footwear", cat: "footwear", subcat: "" },
+      { title: "Trekking footwear", cat: "footwear", subcat: "trekking" },
+      { title: "Hiking shoes", cat: "footwear", subcat: "hiking-shoes" },
+      { title: "Winter boots", cat: "footwear", subcat: "winter-boots" },
+      {
+        title: "Multifunctional shoes",
+        cat: "footwear",
+        subcat: "multifunctional-shoes"
+      },
+      { title: "Leisure shoes", cat: "footwear", subcat: "leisure-shoes" }
       // { title: "See More...", cat: "/footwear" },
     ],
     equipment_links: [
-      { title: "All Equipment", cat: "equipment", subcat: ""  },
-      { title: "Camping & Fishing", cat: "equipment", subcat: "camping-fishing"  },
-      { title: "Exercise & Fitness", cat: "equipment", subcat: "exercise-fitness"  },
-      { title: "Swimming & Water Sports", cat: "equipment", subcat: "swimming-water-sports"  },
-      { title: "Hiking & Trekking", cat: "equipment", subcat: "hiking-trekking"  },
+      { title: "All Equipment", cat: "equipment", subcat: "" },
+      {
+        title: "Camping & Fishing",
+        cat: "equipment",
+        subcat: "camping-fishing"
+      },
+      {
+        title: "Exercise & Fitness",
+        cat: "equipment",
+        subcat: "exercise-fitness"
+      },
+      {
+        title: "Swimming & Water Sports",
+        cat: "equipment",
+        subcat: "swimming-water-sports"
+      },
+      {
+        title: "Hiking & Trekking",
+        cat: "equipment",
+        subcat: "hiking-trekking"
+      }
       // { title: "See More...", cat: "/equipment" },
     ]
   })
