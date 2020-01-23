@@ -36,6 +36,11 @@ body {
   justify-content: flex-end;
 }
 
+.fs-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .header-top-menu {
   background-color: $base-purple !important;
   height: 40px;
@@ -983,26 +988,41 @@ header {
   align-items: center;
   margin-bottom: 39px;
 
-  .fs-container {
-    .top-banner-content {
+}
+
+//!Top Banner Product VW
+.top-banner-pw {
+  background: transparent url("assets/img/product_banner.jpg") no-repeat center;
+  height: 184px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 39px;
+}
+
+.fs-container {
+  .top-banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
       display: flex;
-      flex-direction: column;
       justify-content: center;
+    }
 
-      div {
-        display: flex;
-        justify-content: center;
-      }
+    p {
+      font-family: Muli;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 45px;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: #302640;
 
-      p {
-        font-family: Muli;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 45px;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #302640;
+      b {
+        color: white;
       }
     }
   }
@@ -1044,13 +1064,14 @@ header {
   }
 }
 
-.fs-flex-center {
+//!ProductView
+.fs-prod-vw-main {
   display: flex;
-  justify-content: center;
 }
 
 .fs-prod-vw-nav {
   margin-bottom: 32px;
+
   .fa-angle-left {
     font-size: 16px;
     line-height: 20px;
@@ -1067,6 +1088,46 @@ header {
     color: #302640;
   }
 }
-.fs-prod-vw-main {
-  background-color: red;
+
+.fs-prod-vw-gall-main {
+  // background-color: green;
+  width: 610px;
+  padding-right: 65px;
+}
+
+.fs-prod-vw-info {
+  h2 {
+    // font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    // color: #302640;
+  }
+
+  .fs-prod-vw-info-rew {
+
+    color: red;
+  }
+
+  .fs-prod-vw-info-style {
+
+    color: green;
+  }
+
+  .fs-prod-vw-info-size {
+    h3 {
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.06em;
+      text-transform: capitalize;
+      color: #302640;
+    }
+
+  }
 }
