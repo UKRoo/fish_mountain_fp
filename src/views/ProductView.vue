@@ -4,7 +4,7 @@
     <div class="fs-container">
       <div class="fs-prod-vw-nav">
         <a href>
-          <i class="fas fa-angle-left"></i>Back to Men’s Jackets
+          <i class="fas fa-angle-left"></i>Back to Men’s Jackets 
         </a>
       </div>
       <!-- ProductView {{$route.params.id}} -->
@@ -16,10 +16,17 @@
   </section>
 </template>
 <script>
+import products from "@/json/products.json.js";
+
 import TopBannerPV from "@/components/products/TopBannerPV";
 import ProductViewMainGallery from "@/components/productview/ProductViewMainGallery";
 import ProductViewMainInfo from "@/components/productview/ProductViewMainInfo";
 export default {
+    data: function() {
+    return {
+      items: products
+    };
+  },
   components: {
     TopBannerPV,
     ProductViewMainGallery,
@@ -27,5 +34,3 @@ export default {
   }
 };
 </script>
-
-src\components\productview\ProductViewMain.vue
