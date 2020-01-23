@@ -17,7 +17,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.06em;
-  
+
 
 }
 
@@ -556,9 +556,6 @@ footer {
   opacity: 1;
 }
 
-// .product-sl:hover {
-//   opacity: 0.5;
-// }
 
 .slick-active+.slick-active+.slick-active+.slick-active~.slick-slide {
   opacity: 0.5;
@@ -1095,6 +1092,7 @@ header {
   // background-color: green;
   width: 610px;
   padding-right: 65px;
+  padding-bottom: 77px;
 }
 
 .fs-prod-vw-info {
@@ -1177,21 +1175,24 @@ header {
     .fs-select-color {
       display: flex;
       flex-direction: column;
+
       .color-block {
         display: flex;
       }
+
       .fs-select-color-1 {
-          width: 44px;
-          height: 44px;
-          border: 1px solid #E6E6E6;
+        width: 44px;
+        height: 44px;
+        border: 1px solid #E6E6E6;
         background-color: #55E590;
         cursor: pointer;
         margin-right: 18px;
       }
+
       .fs-select-color-2 {
-          width: 44px;
-          height: 44px;
-          border: 1px solid #E6E6E6;
+        width: 44px;
+        height: 44px;
+        border: 1px solid #E6E6E6;
         background-color: #E26930;
         cursor: pointer;
       }
@@ -1207,9 +1208,40 @@ header {
         border: 1px solid #E6E6E6;
         box-sizing: border-box;
         background-color: #fff;
-      
+
       }
     }
   }
 
+}
+
+//!Gallery Slider PV
+.product-view-gall-add-photo {
+
+  h2 {
+    padding-bottom: 40px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #FFA115;
+  }
+}
+
+.product-view-gall-slider {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+
+  .product-view-sl-image:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+}
+.product-view-tab-info {
+  height: 392px;
+  background-color: green;
 }
