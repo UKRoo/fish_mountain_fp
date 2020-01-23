@@ -1,6 +1,6 @@
 $base-purple: #302640;
 $base-yellow: #FCC43E;
-$base-bg-color: #FBFBFB;
+$base-bg-color: #FFFFFF;
 $fs-gall-cat-big-w: 773px;
 $fs-gall-cat-middle-w: 575px;
 $fs-gall-cat-small-w: 375px;
@@ -17,6 +17,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.06em;
+  
 
 }
 
@@ -40,6 +41,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 
 .header-top-menu {
   background-color: $base-purple !important;
@@ -791,7 +793,7 @@ footer {
 
 
 header {
-  background-color: #FBFBFB;
+  background-color: #FFFFFF;
   height: 145px;
 }
 
@@ -1127,7 +1129,87 @@ header {
       letter-spacing: 0.06em;
       text-transform: capitalize;
       color: #302640;
+
+      a {
+        text-decoration-line: underline;
+      }
     }
 
+    .fs-size-block {
+      color: red;
+      display: flex;
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #302640;
+      padding-bottom: 8px;
+
+      .size-square {
+        width: 44px;
+        height: 44px;
+        border: 1px solid #E6E6E6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 18px;
+        cursor: pointer;
+        margin-bottom: 8px;
+      }
+    }
   }
+
+  .fs-prod-vw-info-color {
+    h3 {
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.06em;
+      text-transform: capitalize;
+      color: #302640;
+    }
+
+    .fs-select-color {
+      display: flex;
+      flex-direction: column;
+      .color-block {
+        display: flex;
+      }
+      .fs-select-color-1 {
+          width: 44px;
+          height: 44px;
+          border: 1px solid #E6E6E6;
+        background-color: #55E590;
+        cursor: pointer;
+        margin-right: 18px;
+      }
+      .fs-select-color-2 {
+          width: 44px;
+          height: 44px;
+          border: 1px solid #E6E6E6;
+        background-color: #E26930;
+        cursor: pointer;
+      }
+    }
+
+    .fs-select-qty {
+
+      // background-color: green;
+      .custom-select {
+        color: #302640;
+        width: 76px;
+        height: 44px;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        background-color: #fff;
+      
+      }
+    }
+  }
+
 }
