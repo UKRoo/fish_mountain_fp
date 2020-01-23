@@ -25,7 +25,7 @@
                 v-for="clothing_link in clothing_links"
                 :key="clothing_link.title"
                 tag="a"
-                :to="`${clothing_link.cat}/${clothing_link.subcat}`"
+                :to="`/ct/${clothing_link.cat}/${clothing_link.subcat}`"
               >{{clothing_link.title}}</router-link>
             </div>
           </div>
@@ -39,7 +39,7 @@
                 v-for="footwear_link in footwear_links"
                 :key="footwear_link.title"
                 tag="a"
-                :to="`${footwear_link.cat}/${footwear_link.subcat}`"
+                :to="`/ct/${footwear_link.cat}/${footwear_link.subcat}`"
               >{{footwear_link.title}}</router-link>
             </div>
           </div>
@@ -54,7 +54,7 @@
                 v-for="equipment_link in equipment_links"
                 :key="equipment_link.title"
                 tag="a"
-                :to="`${equipment_link.cat}/${equipment_link.subcat}`"
+                :to="`/ct/${equipment_link.cat}/${equipment_link.subcat}`"
               >{{equipment_link.title}}</router-link>
             </div>
           </div>
@@ -66,10 +66,10 @@
           <br />in adventure we trust
         </a>
         <div>
-          <a href="/women/">Women</a>
-          <a href="/man/">Men</a>
-          <a href="/kids/">Kids</a>
-          <a href="/sale/">
+          <a href="/ct/women/">Women</a>
+          <a href="/ct/man/">Men</a>
+          <a href="/ct/kids/">Kids</a>
+          <a href="/ct/sale/">
             <b>Sale</b>
           </a>
           <a href="/contact/">Contact us</a>

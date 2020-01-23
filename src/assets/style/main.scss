@@ -863,6 +863,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
     div {
       padding-top: 12px;
       display: flex;
@@ -870,11 +871,12 @@ header {
       padding: 6px;
       font-size: 20px;
       color: #E26930;
+
       div:first-child {
         color: #55E590;
       }
     }
-   
+
     h3 {
       padding-bottom: 6px;
       font-family: Muli;
@@ -1041,7 +1043,30 @@ header {
 
   }
 }
+
 .fs-flex-center {
   display: flex;
   justify-content: center;
+}
+
+.fs-prod-vw-nav {
+  margin-bottom: 32px;
+  .fa-angle-left {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 11px;
+  }
+
+  a {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #302640;
+  }
+}
+.fs-prod-vw-main {
+  background-color: red;
 }

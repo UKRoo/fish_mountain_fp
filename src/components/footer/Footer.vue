@@ -4,10 +4,10 @@
       <div class="flex-sb footer-content">
         <ul>
           <h3>LINKS</h3>
-          <a href="#">
+          <a href="/">
             <li>Home</li>
           </a>
-          <a href="#">
+          <a href="/ct/">
             <li>Categories</li>
           </a>
           <a href="#">
@@ -16,7 +16,7 @@
           <a href="#">
             <li>About us</li>
           </a>
-          <a href="#">
+          <a href="/contact/">
             <li>Contacts</li>
           </a>
         </ul>

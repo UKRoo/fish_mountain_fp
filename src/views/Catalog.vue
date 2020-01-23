@@ -6,7 +6,7 @@
       <ProductSearch />
       <div class="main-goods">
         <div v-for="item in items" :key="item.id" class="main-goods-tile" :id="item.id">
-          <a :href="`${item.categories}/product-id-${item.id}`">
+          <a :href="`/ct/${item.categories}/p-${item.id}`">
             <img :src="`${item.img_main_url}`" :alt="`${item.title}`" />
           </a>
           <div class="main-goods-tile-desc">

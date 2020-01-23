@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Man from '../views/ManProduct.vue'
+import Catalog from '../views/Catalog'
+import ProductView from '../views/ProductView'
 
 
 Vue.use(VueRouter)
@@ -14,10 +15,15 @@ const routes = [
     component: Home
   },
   {
-    path: '/man',
-    name: 'man',
-    component: () => import('../views/ManProduct')
-  }
+    path: '/ct/*/p-:id',
+    // name: 'man',
+    component: () => import('../views/ProductView')
+  },
+  {
+    path: '/ct/*',
+    // name: 'man',
+    component: () => import('../views/Catalog'),
+  },
 ]
 
 const router = new VueRouter({
