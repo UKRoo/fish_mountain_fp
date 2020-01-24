@@ -1,25 +1,24 @@
 <template>
   <div class="fs-prod-vw-info">
-    {{$route.params.id}}
     <h2>
-      The North Face Brigandine
-      <br />FUTURELIGHT Jacket
+      {{item.title}}
     </h2>
     <h2>Man</h2>
     <div class="fs-prod-vw-info-rew flex-sb">
       <h2>
-        <b>$750</b>
+        <b>${{item.price}}</b>
       </h2>
       <div>rew</div>
     </div>
     <div class="fs-prod-vw-info-style flex-sb">
-      <h2>Fit</h2>
+      <h2>{{item.style}}</h2>
       <div>rew</div>
     </div>
     <div class="fs-prod-vw-info-size">
       <h3>Select a Size</h3>
       <div class="fs-size-block">
-        <div class="size-square">S</div>
+        <!-- <div v-for="size in :{{item.size}}" class="size-square">S</div> -->
+
         <div class="size-square">M</div>
         <div class="size-square">L</div>
         <div class="size-square">XL</div>
@@ -49,3 +48,14 @@
     </div>
   </div>
 </template>
+<script>
+import products from "@/json/products.json.js";
+
+export default {
+  data: function() {
+    return {
+      item: products[this.$route.params.id]
+    };
+  },
+};
+</script>

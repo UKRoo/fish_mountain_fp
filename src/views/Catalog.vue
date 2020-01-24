@@ -37,9 +37,12 @@ import TopBanner from "@/components/search/nav/TopBanner";
 import SubcategoryDescription from "@/components/products/SubcategoryDescription";
 
 export default {
+  
   data: function() {
     return {
-      items: products
+      items: products.filter(function (products){
+        return products.id > 0
+      })
     };
   },
   components: {

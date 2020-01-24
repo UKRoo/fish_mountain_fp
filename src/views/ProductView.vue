@@ -18,7 +18,7 @@
   </section>
 </template>
 <script>
-import products from "@/json/products.json.js";
+// import products from "@/json/products.json.js";
 
 import TopBannerPV from "@/components/products/TopBannerPV";
 import ProductViewMainGallery from "@/components/productview/ProductViewMainGallery";
@@ -27,9 +27,10 @@ import ProductViewMainInfoTabs from "@/components/productview/ProductViewMainInf
 import GallerySliderPV from "@/components/productview/GallerySliderPV";
 
 export default {
+  // item: [],
   data: function() {
     return {
-      items: products
+      // item: products[$route.params.id]
     };
   },
   components: {
@@ -41,3 +42,5 @@ export default {
   }
 };
 </script>
+
+
