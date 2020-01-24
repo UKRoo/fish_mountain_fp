@@ -1238,7 +1238,10 @@ header {
 
   .product-view-sl-image:hover {
     transform: scale(1.5);
-    cursor: pointer;
+    cursor: pointer;    
+    img {
+      width: 150%;
+    }
   }
 }
 .product-view-tab-info {

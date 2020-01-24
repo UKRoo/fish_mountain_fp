@@ -30,7 +30,8 @@ export default {
         centerMode: true,
         slidesToScroll: 2,
         touchMove: true,
-        arrows: false,        
+        arrows: false,
+        // zIndex: 1000,
       });
 
     }
