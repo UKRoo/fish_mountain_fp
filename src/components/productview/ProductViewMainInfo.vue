@@ -17,12 +17,7 @@
     <div class="fs-prod-vw-info-size">
       <h3>Select a Size</h3>
       <div class="fs-size-block">
-        <!-- <div v-for="size in :{{item.size}}" class="size-square">S</div> -->
-
-        <div class="size-square">M</div>
-        <div class="size-square">L</div>
-        <div class="size-square">XL</div>
-        <div class="size-square">XXL</div>
+        <div v-for="(size, index) in item.sizes" :key="index" class="size-square">{{size}}</div>
       </div>
       <h3>
         <a>Size Guide</a>

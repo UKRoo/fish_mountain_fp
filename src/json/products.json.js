@@ -15,7 +15,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "555",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -36,7 +36,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "260",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -57,7 +57,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "750",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -78,7 +78,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "250",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -99,7 +99,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "250",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -120,7 +120,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "250",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -141,7 +141,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "250",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -162,7 +162,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "250",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
@@ -183,7 +183,7 @@ export default [
         "@/assets/img/product_1.jpg",
     ],
     "price": "250",
-    "size": [
+    "sizes": [
       "S",
       "M",
       "L",
