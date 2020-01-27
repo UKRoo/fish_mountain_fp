@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import WishList from '../views/WishList'
 import Catalog from '../views/Catalog'
 import ProductView from '../views/ProductView'
 
@@ -13,6 +14,12 @@ const routes = [
     name: 'home',
     meta: {layout: 'main'},
     component: Home
+  },
+  {
+    path: '/wishlist',
+    name: 'wishList',
+    meta: {layout: 'main'},
+    component: () => import('../views/WishList')
   },
   {
     path: '/ct/*/p-:id',

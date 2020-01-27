@@ -1146,17 +1146,6 @@ header {
       color: #302640;
       padding-bottom: 8px;
 
-      .size-square {
-        width: 44px;
-        height: 44px;
-        border: 1px solid #E6E6E6;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 18px;
-        cursor: pointer;
-        margin-bottom: 8px;
-      }
     }
   }
 
@@ -1238,14 +1227,119 @@ header {
 
   .product-view-sl-image:hover {
     transform: scale(1.5);
-    cursor: pointer;    
+    cursor: pointer;
+
     img {
       width: 150%;
     }
   }
 }
+
 .product-view-tab-info {
   height: 392px;
   background-color: green;
   padding-bottom: 79px;
+}
+
+.wishlist-container {
+  h2 {
+    padding-top: 44px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+    color: #302640;
+    margin: 0;
+  }
+
+  hr {
+    border: 1px solid #FCC43E;
+    margin: 35px 0 35px 0;
+  }
+
+  .wishlist-tile {
+    display: flex;
+    justify-content: space-between;
+
+    .wishlist-tile-main {
+      display: flex;
+
+      h2 {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #302640;
+      }
+
+      h3 {
+        font-family: Muli;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.06em;
+        color: #302640;
+      }
+
+      a {
+        color: #FCC43E;
+
+        h3 {
+          color: #FCC43E;
+        }
+      }
+    }
+  }
+
+  .wishlist-tile-order-info {
+    .wishlist-tile-order-gall {
+      img {
+        cursor: pointer;
+        padding: 0 8px 0 8px;
+      }
+    }
+
+    .wishlist-tile-order-sizes-info {
+      padding-top: 30px;
+    }
+
+    .wishlist-tile-order-size {
+      display: flex;
+    }
+
+    h3 {
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.06em;
+      text-decoration-line: underline;
+      color: #302640;
+      margin-top: 13px;
+      margin-bottom: 31px;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}
+
+.size-square {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #E6E6E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+  cursor: pointer;
+  margin-bottom: 8px;
 }
