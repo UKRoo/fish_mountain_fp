@@ -7,7 +7,6 @@
       <a><img src="@/assets/img/logo_4.png" alt=""></a>
       <a><img src="@/assets/img/logo_5.png" alt=""></a>
       <a><img src="@/assets/img/logo_6.png" alt=""></a>
-
     </div>
   </section>
 </template>
