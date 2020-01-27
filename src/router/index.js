@@ -22,6 +22,12 @@ const routes = [
     component: () => import('../views/WishList')
   },
   {
+    path: '/cart',
+    name: 'cart',
+    meta: {layout: 'main'},
+    component: () => import('../views/Cart')
+  },
+  {
     path: '/ct/*/p-:id',
     // name: 'man',
     component: () => import('../views/ProductView')

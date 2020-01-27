@@ -1343,3 +1343,32 @@ header {
   cursor: pointer;
   margin-bottom: 8px;
 }
+
+.cart-container{
+  hr {
+    border: 1px solid #FCC43E;
+    margin: 35px 0 0 0;
+  }
+
+  .cart-product-tile {
+display: flex;
+flex-grow: 2;
+  }
+  .cart-order-info{
+    flex-grow: 1;
+
+  }
+  .cart-product-tile-icons {
+    i {
+      padding-left: 18px;
+      padding-right: 18px;
+      font-size: 18px;
+      color: #302640;
+    }
+  }
+.cart-order-info{
+  background-color: #E6E6E6;
+}
+
+
+}
