@@ -34,6 +34,12 @@ const routes = [
     component: () => import('../views/Cart')
   },
   {
+    path: '/delivery',
+    name: 'delivery',
+    meta: {layout: 'Delivery'},
+    component: () => import('../views/Delivery')
+  },
+  {
     path: '/ct/*/p-:id',
     // name: 'man',
     component: () => import('../views/ProductView')

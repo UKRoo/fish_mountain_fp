@@ -8,6 +8,8 @@
 
 <script>
 import MainLayout from '@/layouts/MainLayout'
+import DeliveryLayout from '@/layouts/DeliveryLayout'
+import AccountLayout from '@/layouts/AccountLayout'
 
 export default {
   computed: {
@@ -18,7 +20,9 @@ export default {
   },
   
   components: {
-    MainLayout
+    MainLayout,
+    DeliveryLayout,
+    AccountLayout
   }
 }
 </script>
