@@ -11,10 +11,34 @@ import 'mdbootstrap/js/popper.js'
 import 'mdbootstrap/js/bootstrap.js'
 // import 'mdbootstrap/js/mdb.js'
 
+import firebase from 'firebase/app'
+import 'firebase/auth'
+import 'firebase/database'
+
 Vue.config.productionTip = false
 
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+
+firebase.initializeApp({
+  apiKey: "AIzaSyCMrwj7sh_Hj86VFTmQ8D7t1GG8U9Lz1eM",
+  authDomain: "fish-mountain.firebaseapp.com",
+  databaseURL: "https://fish-mountain.firebaseio.com",
+  projectId: "fish-mountain",
+  storageBucket: "fish-mountain.appspot.com",
+  messagingSenderId: "791319680667",
+  appId: "1:791319680667:web:1c746b8565ab6678f4d83e",
+  measurementId: "G-F9CJXD5VHV"
+})
+
+let app
+
+firebase.auth().onAuthStateChanged(() => {
+  if (!app) {
+    app = new Vue({
+      router,
+      store,
+      render: h => h(App)
+    }).$mount('#app')
+  }
+})
+
+

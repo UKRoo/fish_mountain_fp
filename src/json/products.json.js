@@ -1,199 +1,151 @@
 export default [
   {},
   {
-    "id": "1",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "categories": "clothing",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "style": "Fit",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+    id: "1",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    categories: "clothing",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    style: "Fit",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "555",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "555",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "2",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "2",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "260",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "260",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "3",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "3",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "750",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "750",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "4",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "4",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "250",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "250",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "5",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "5",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "250",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "250",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "6",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "6",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "250",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "250",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "7",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "7",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "250",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "250",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "8",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "8",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "250",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
+    price: "250",
+    sizes: ["S", "M", "L", "XL"]
   },
-      {
-    "id": "9",
-    "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
-    "subcategories": "coats-jackets",
-    "activity": "Outdoors",
-    "gender": "male",
-    "img_main_url": "/img/product_1.jpg",
-    "img_gall_url": [
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
-        "@/assets/img/product_1.jpg",
+  {
+    id: "9",
+    categories: "clothing",
+    title: "The North Face Brigandine FUTURELIGHT Jacket",
+    subcategories: "coats-jackets",
+    activity: "Outdoors",
+    gender: "male",
+    img_main_url: "/img/product_1.jpg",
+    img_gall_url: [
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg",
+      "@/assets/img/product_1.jpg"
     ],
-    "price": "250",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ]
-  },
-  
-]
-
-
+    price: "250",
+    sizes: ["S", "M", "L", "XL"]
+  }
+];
 
 //   { title: "All clothing", url: "/clothing" },
 //   { title: "Coats & Jackets", url: "/clothing/coats-jackets" },
