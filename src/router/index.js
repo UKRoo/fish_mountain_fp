@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import WishList from '../views/WishList'
 import Catalog from '../views/Catalog'
 import ProductView from '../views/ProductView'
+import Page404 from '../views/Page404.vue'
 
 
 Vue.use(VueRouter)
@@ -22,6 +23,11 @@ const routes = [
     component: () => import('../views/WishList')
   },
   {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('../views/Contact')
+  },
+  {
     path: '/cart',
     name: 'cart',
     meta: {layout: 'main'},
@@ -36,6 +42,11 @@ const routes = [
     path: '/ct/*',
     // name: 'man',
     component: () => import('../views/Catalog'),
+  },
+  {
+    path: '*',
+    name: 'Page404',
+    component: Page404
   },
 ]
 
