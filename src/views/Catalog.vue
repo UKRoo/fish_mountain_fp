@@ -21,6 +21,7 @@
             <h3>{{item.activity}}</h3>
             <h2>{{item.title}}</h2>
             <h2>${{item.price}}</h2>
+            <h2>{{item.gender}}</h2>
           </div>
         </div>
         <SubcategoryDescription />
@@ -39,11 +40,19 @@ import SubcategoryDescription from "@/components/products/SubcategoryDescription
 export default {
   
   data: function() {
+    let gender
+    if (this.$route.params.pathMatch == "man/") {
+      gender = "male"
+    } else {
+      gender = "female"
+    }
     return {
       items: products.filter(function (products){
-        return products.id > 0
+                return products.gender === gender
       })
     };
+        // return console.log(this.$route.params.pathMatch)
+
   },
   components: {
     ProductSearch,

@@ -1,5 +1,5 @@
 export default [
-  {},
+  // {},
   {
     "id": "1",
     "title": "The North Face Brigandine FUTURELIGHT Jacket",
@@ -7,7 +7,7 @@ export default [
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
     "style": "Fit",
-    "gender": "male",
+    "gender": "women",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
@@ -28,14 +28,14 @@ export default [
     "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
-    "gender": "male",
+    "gender": "female",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
         "@/assets/img/product_1.jpg",
         "@/assets/img/product_1.jpg",
     ],
-    "price": "260",
+    "price": "7777777",
     "sizes": [
       "S",
       "M",
@@ -70,7 +70,7 @@ export default [
     "title": "The North Face Brigandine FUTURELIGHT Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
-    "gender": "male",
+    "gender": "female",
     "img_main_url": "/img/product_1.jpg",
     "img_gall_url": [
         "@/assets/img/product_1.jpg",
