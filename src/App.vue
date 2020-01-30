@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex";
 import MainLayout from '@/layouts/MainLayout'
 import DeliveryLayout from '@/layouts/DeliveryLayout'
 import AccountLayout from '@/layouts/AccountLayout'
@@ -16,14 +17,24 @@ export default {
     layout() {
       console.log(this.$route.meta)
       return (this.$route.meta.layout || 'main') + '-layout'
-    }
+    },
+    ...mapGetters({
+      products: "getAllProducts",
+    }),
   },
-  
+  methods: {
+    ...mapActions({
+      fetchProducts: "fetchProducts",
+    }),
+  },
   components: {
     MainLayout,
     DeliveryLayout,
     AccountLayout
-  }
+  },
+  mounted() {
+    this.fetchProducts(10);
+  },
 }
 </script>
 <style lang="scss">
