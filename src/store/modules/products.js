@@ -1,33 +1,32 @@
-import allProducts from "@/json/products.json.js"; 
+import allProducts from "@/json/products.json.js";
 
 export default {
-    state: {
-        male: [],
-        products: [],
+  state: {
+    wishList: [],
+    products: []
+  },
+  mutations: {
+    updateProducts(state, products) {
+      state.products = products;
     },
-    mutations: {
-        updateProducts(state, products) {
-            state.products = products;
-        },
-        malePost(state, male) {
-            state.male = male;
-        },
+    malePost(state, male) {
+      state.male = male;
+    }
+  },
+  actions: {
+    async fetchProducts({ commit }) {
+      const products = allProducts;
+      //   console.log(products);
+      commit("updateProducts", products);
+    }
+  },
+  getters: {
+    getAllProducts(state) {
+      return state.products;
     },
-    actions: {
-        async fetchProducts({commit}) {
-            const products = allProducts;
-    //   console.log(products);
-            commit("updateProducts", products)
-        } 
-    },
-    getters: {
-        getAllProducts(state) {
-            return state.products
-        },
-        getAllMale(state) {
-            return state.male;
-
-            commit("updateProducts", products);
-        }
-    },
-}
+    getAllMale(state) {
+      return state.male;
+      commit("updateProducts", products);
+    }
+  }
+};
