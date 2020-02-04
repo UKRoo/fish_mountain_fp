@@ -5,7 +5,12 @@
     <div class="fs-container-prod fs-container">
       <ProductSearch />
       <div class="main-goods">
-        <div v-for="item in items" :key="item.id" class="main-goods-tile" :id="item.id">
+        <div
+          v-for="item in items"
+          :key="item.id"
+          class="main-goods-tile"
+          :id="item.id"
+        >
           <a :href="`/ct/${item.categories}/p-${item.id}`">
             <img :src="`${item.img_main_url}`" :alt="`${item.title}`" />
           </a>
@@ -30,7 +35,9 @@
   </section>
 </template>
 <script>
-import products from "@/json/products.json.js";
+import { mapGetters, mapActions } from "vuex";
+
+// import products from "@/json/products.json.js";
 import ProductSearch from "@/components/search/ProductSearch";
 import Footer from "@/components/footer/Footer";
 import TopNav from "@/components/search/nav/TopNav";
@@ -38,19 +45,18 @@ import TopBanner from "@/components/search/nav/TopBanner";
 import SubcategoryDescription from "@/components/products/SubcategoryDescription";
 
 export default {
-  data: function() {
-    let gender;
-    if (this.$route.params.pathMatch == "man/") {
-      gender = "male";
-    } else {
-      gender = "female";
-    }
-    return {
-      items: products.filter(function(products) {
-        return products.gender === gender;
-      })
-    };
-    // return console.log(this.$route.params.pathMatch)
+  computed: {
+    items() {
+      if (this.$route.params.pathMatch == "man/") {
+        return this.$store.getters.getMale;
+      } else {
+         return this.$store.getters.getFemale;
+      }
+    },
+    // ...mapGetters({
+    //   // products: "getAllProducts",
+    //   // femaleProducts: "getFemale"
+    // })
   },
   components: {
     ProductSearch,
