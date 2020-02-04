@@ -2,7 +2,6 @@ import allProducts from "@/json/products.json.js";
 
 export default {
   state: {
-    wishList: [],
     products: []
   },
   mutations: {
@@ -16,7 +15,6 @@ export default {
   actions: {
     async fetchProducts({ commit }) {
       const products = allProducts;
-      //   console.log(products);
       commit("updateProducts", products);
     }
   },
@@ -24,9 +22,11 @@ export default {
     getAllProducts(state) {
       return state.products;
     },
-    getAllMale(state) {
-      return state.male;
-      commit("updateProducts", products);
-    }
+    getMale(state) {
+      return state.products.filter(product => product.gender === "male")
+    },
+    getFemale(state) {
+      return state.products.filter(product => product.gender === "female")
+    },
   }
 };

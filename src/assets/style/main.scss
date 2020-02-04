@@ -862,7 +862,9 @@ header {
 .main-goods-tile {
   width: 280px;
   border: 1px;
-
+ img {
+   max-height: 274px;
+ }
   .main-goods-tile-desc {
     display: flex;
     flex-direction: column;

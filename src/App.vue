@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- {{femaleProducts}} -->
     <component :is="layout">
      <router-view/>
     </component>
@@ -20,6 +21,8 @@ export default {
     },
     ...mapGetters({
       products: "getAllProducts",
+      maleProducts: "getMale",
+      femaleProducts: "getFemale",
     }),
   },
   methods: {
@@ -33,7 +36,7 @@ export default {
     AccountLayout
   },
   mounted() {
-    this.fetchProducts(10);
+    this.fetchProducts();
   },
 }
 </script>
