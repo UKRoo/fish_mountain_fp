@@ -1,6 +1,6 @@
 <template>
   <section>
-    {{this.$store.getters.getWishlist}}
+    <!-- {{this.$store.getters.getWishlist}} -->
     <TopNav />
     <TopBanner />
     <div class="fs-container-prod fs-container">
@@ -12,9 +12,10 @@
           class="main-goods-tile"
           :id="item.id"
         >
-          <a :href="`/ct/${item.categories}/p-${item.id}`">
+        <div class="add-wishlist"><i v-on:click="item.wishlist = !item.wishlist" class="far fa-heart" v-bind:class="{ in_wish: item.wishlist }" ></i></div>
+          <router-link :to="`/ct/${item.categories}/p-${item.id}`">
             <img :src="`${item.img_main_url}`" :alt="`${item.title}`" />
-          </a>
+          </router-link>
           <div class="main-goods-tile-desc">
             <div class="text-center">
               <div>
@@ -63,3 +64,5 @@ export default {
   }
 };
 </script>
+
+      // <i v-on:click="item.wishlist = true" class="far fa-heart"></i>

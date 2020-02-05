@@ -1,11 +1,11 @@
 <template>
     <div class="product-nav fs-container">
         <!-- <ol>
-            <a href="/"><li>Fish Mountain</li></a>
+            <router-link to="/"><li>Fish Mountain</li></router-link>
             <li>/</li>
-            <a href="/man/"><li>Men</li></a>
+            <router-link to="/man/"><li>Men</li></router-link>
             <li>/</li>
-            <li href="/man/jackets"><li>Jackets</li></a>
+            <li href="/man/jackets"><li>Jackets</li></router-link>
         </ol> -->
     </div>
 </template>

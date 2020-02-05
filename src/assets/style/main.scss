@@ -862,6 +862,20 @@ header {
 .main-goods-tile {
   width: 280px;
   border: 1px;
+  
+ .add-wishlist {
+display: flex;
+flex-direction: row-reverse;
+i {
+  margin-right: 13px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.in_wish {
+  color: red;
+
+}
+ }
  img {
    max-height: 274px;
  }

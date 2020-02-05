@@ -20,7 +20,7 @@
         <div v-for="(size, index) in item.sizes" :key="index" class="size-square">{{size}}</div>
       </div>
       <h3>
-        <a>Size Guide</a>
+        <router-link>Size Guide</router-link>
       </h3>
       <div class="fs-prod-vw-info-color flex-sb">
         <div class="fs-select-color">

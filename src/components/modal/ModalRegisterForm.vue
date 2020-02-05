@@ -41,7 +41,7 @@
           I agree with Fish Mountain Terms and
           Conditions
           and
-          <a href="#" target="_blank">Privacy Policy</a>
+          <router-link to="#" target="_blank">Privacy Policy</router-link>
         </label>
       </div>
       <!-- Newsletter -->

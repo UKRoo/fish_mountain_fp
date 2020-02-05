@@ -12,9 +12,9 @@
           <h3>Color: Light Beige</h3>
           <h3>In stock</h3>
           <h3>In stock</h3>
-          <a href="#">
+          <router-link to="#">
             <h3>Remove</h3>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="wishlist-tile-order-info">
@@ -40,7 +40,7 @@
             </select>
           </div>
         </div>
-        <a href="#"><h3>Size guide</h3></a>
+        <router-link to="#"><h3>Size guide</h3></router-link>
         <button class="btn btn-outline-primary">ADD TO CART</button>
       </div>
     </div>

@@ -34,7 +34,7 @@
               <tbody>
                 <tr>
                   <th scope="row">
-                    <a><i class="fas fa-times"></i></a>
+                    <router-link to=""><i class="fas fa-times"></i></router-link>
                   </th>
                   <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
                   <td>
@@ -46,7 +46,7 @@
                 </tr>
                 <tr>
                   <th scope="row">
-                    <a><i class="fas fa-times"></i></a>
+                    <router-link to=""><i class="fas fa-times"></i></router-link>
                   </th>
                   <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
                   <td>
@@ -58,7 +58,7 @@
                 </tr>
                 <tr>
                   <th scope="row">
-                    <a><i class="fas fa-times"></i></a>
+                    <router-link to=""><i class="fas fa-times"></i></router-link>
                   </th>
                   <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
                   <td>
@@ -70,7 +70,7 @@
                 </tr>
                 <tr>
                   <th scope="row">
-                    <a><i class="fas fa-times"></i></a>
+                    <router-link to=""><i class="fas fa-times"></i></router-link>
                   </th>
                   <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
                   <td>

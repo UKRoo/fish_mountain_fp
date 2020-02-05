@@ -21,7 +21,7 @@
                   </div>
                   <div>
                     <!-- Forgot password -->
-                    <a href="" style="font-size: 14px;">Forgotten your password?</a>
+                    <router-link to="" style="font-size: 14px;">Forgotten your password?</router-link>
                   </div>
                 </div>
 
@@ -32,7 +32,7 @@
 
                 <!-- Register -->
                 <p>Not a member?
-                  <a href="">Register</a>
+                  <router-link to="">Register</router-link>
                 </p>
 
                 <!-- Social login -->

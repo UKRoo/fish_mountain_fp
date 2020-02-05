@@ -21,9 +21,9 @@
                 <tr>
                 </tr>
               </thead>
-              <tbody>
+              <tbody> 
                 <tr v-for="item in items" :key="item.id">
-                  <th scope="row"><a><i class="fas fa-times"></i></a></th>
+                  <th scope="row"><router-link to="#"><i class="fas fa-times"></i></router-link></th>
                   <td><img :src="`/img/products/product_${item.id}.jpg`" alt=""></td>
                   <td>{{item.title}}<br>{{item.gender}}</td>
                   <td>${{item.price}}</td>

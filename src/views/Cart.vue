@@ -23,8 +23,8 @@
           </div>
         </div>
         <div class="cart-product-tile-icons">
-            <a href=""><i class="far fa-heart"></i></a>
-            <a href=""><i class="fas fa-times"></i></a>
+            <router-link to=""><i class="far fa-heart"></i></router-link>
+            <router-link to=""><i class="fas fa-times"></i></router-link>
         </div>
       </div>
       <div class="cart-order-info">

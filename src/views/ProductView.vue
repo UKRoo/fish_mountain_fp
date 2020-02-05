@@ -3,9 +3,9 @@
     <TopBannerPV />
     <div class="fs-container">
       <div class="fs-prod-vw-nav">
-        <a href>
+        <router-link to="#">
           <i class="fas fa-angle-left"></i>Back to Men’s Jackets
-        </a>
+        </router-link>
       </div>
       <!-- ProductView {{$route.params.id}} -->
       <div class="fs-prod-vw-main">

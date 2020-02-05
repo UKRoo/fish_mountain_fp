@@ -4,21 +4,21 @@
       <div class="flex-sb footer-content">
         <ul>
           <h3>LINKS</h3>
-          <a href="/">
+          <router-link to="/">
             <li>Home</li>
-          </a>
-          <a href="/ct/">
+          </router-link>
+          <router-link to="/ct/">
             <li>Categories</li>
-          </a>
-          <a href="#">
+          </router-link>
+          <router-link to="#">
             <li>Viewed & liked</li>
-          </a>
-          <a href="#">
+          </router-link>
+          <router-link to="#">
             <li>About us</li>
-          </a>
-          <a href="/contact/">
+          </router-link>
+          <router-link to="/contact/">
             <li>Contacts</li>
-          </a>
+          </router-link>
         </ul>
         <ul>
           <h3>CONTACTS</h3>

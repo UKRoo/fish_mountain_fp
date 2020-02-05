@@ -2,37 +2,37 @@
   <div class="fs-container product-view-tab-info">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
-        <a
+        <router-link
           class="nav-link active"
           id="home-tab"
           data-toggle="tab"
-          href="#home"
+          to="#home"
           role="tab"
           aria-controls="home"
           aria-selected="true"
-        >DESCRIPTION</a>
+        >DESCRIPTION</router-link>
       </li>
       <li class="nav-item">
-        <a
+        <router-link
           class="nav-link"
           id="profile-tab"
           data-toggle="tab"
-          href="#profile"
+          to="#profile"
           role="tab"
           aria-controls="profile"
           aria-selected="false"
-        >DETAILS</a>
+        >DETAILS</router-link>
       </li>
       <li class="nav-item">
-        <a
+        <router-link
           class="nav-link"
           id="contact-tab"
           data-toggle="tab"
-          href="#contact"
+          to="#contact"
           role="tab"
           aria-controls="contact"
           aria-selected="false"
-        >ADVANTAGES</a>
+        >ADVANTAGES</router-link>
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
