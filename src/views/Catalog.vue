@@ -1,5 +1,6 @@
 <template>
   <section>
+    {{this.$store.getters.getWishlist}}
     <TopNav />
     <TopBanner />
     <div class="fs-container-prod fs-container">
@@ -35,7 +36,7 @@
   </section>
 </template>
 <script>
-import { mapGetters, mapActions } from "vuex";
+// import { mapGetters, mapActions } from "vuex";
 
 // import products from "@/json/products.json.js";
 import ProductSearch from "@/components/search/ProductSearch";
@@ -53,10 +54,6 @@ export default {
          return this.$store.getters.getFemale;
       }
     },
-    // ...mapGetters({
-    //   // products: "getAllProducts",
-    //   // femaleProducts: "getFemale"
-    // })
   },
   components: {
     ProductSearch,

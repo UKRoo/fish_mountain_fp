@@ -2,7 +2,7 @@ export default [
   // {},
   {
     "id": "1",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face",
     "categories": "clothing",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
