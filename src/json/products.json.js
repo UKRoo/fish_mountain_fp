@@ -1,5 +1,5 @@
 export default [
-  // {},
+  {},
   {
     "id": "1",
     "title": "The North Face",
@@ -153,7 +153,7 @@ export default [
         "/img/products/product_7.jpg",
         "/img/products/product_7.jpg",
     ],
-    "price": "250",
+    "price": "20050",
     "sizes": [
       "S",
       "M",

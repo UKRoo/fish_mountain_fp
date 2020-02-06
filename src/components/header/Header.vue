@@ -136,7 +136,6 @@ export default {
         cat: "equipment",
         subcat: "hiking-trekking"
       }
-      // { title: "See More...", cat: "/equipment" },
     ]
   })
 };

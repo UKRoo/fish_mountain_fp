@@ -66,4 +66,3 @@ export default {
 };
 </script>
 
-// <i v-on:click="item.wishlist = true" class="far fa-heart"></i>

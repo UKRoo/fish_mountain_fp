@@ -1,35 +1,22 @@
 <template>
-<div class="fs-prod-vw-gall-main">
-  <div>
-    <div class="slider slider-for">
-      <div>
-        <img src="@/assets/img/product_vw_1.jpg" />
+  <div class="fs-prod-vw-gall-main">
+    <div>
+      <div class="slider slider-for">
+        <div v-for="n in 3">
+          <img :src="`/img/products/product_vw_${$route.params.id}_${n}.jpg`" />
+        </div>
       </div>
-      <div>
-        <img src="@/assets/img/product_vw_2.jpg" />
-      </div>
-      <div>
-        <img src="@/assets/img/product_vw_3.jpg" />
-      </div>
-    </div>
-    <div class="slider slider-nav">
-      <div>
-        <img src="@/assets/img/product_vw_1.jpg" />
-      </div>
-      <div>
-        <img src="@/assets/img/product_vw_2.jpg" />
-      </div>
-      <div>
-        <img src="@/assets/img/product_vw_3.jpg" />
+      <div class="slider slider-nav">
+        <div v-for="n in 3">
+          <img :src="`/img/products/product_vw_${$route.params.id}_${n}.jpg`" />
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
 <script>
 import $ from "jquery";
-// import JQuery from 'jquery'
-// window.$ = JQuery
+
 export default {
   mounted() {
     $(".slider-for").slick({

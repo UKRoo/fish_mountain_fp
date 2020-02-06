@@ -7,7 +7,6 @@
           <i class="fas fa-angle-left"></i>Back to Men’s Jackets
         </router-link>
       </div>
-      <!-- ProductView {{$route.params.id}} -->
       <div class="fs-prod-vw-main">
         <ProductViewMainGallery />
         <ProductViewMainInfo />
@@ -18,8 +17,6 @@
   </section>
 </template>
 <script>
-// import products from "@/json/products.json.js";
-
 import TopBannerPV from "@/components/products/TopBannerPV";
 import ProductViewMainGallery from "@/components/productview/ProductViewMainGallery";
 import ProductViewMainInfo from "@/components/productview/ProductViewMainInfo";
@@ -27,10 +24,10 @@ import ProductViewMainInfoTabs from "@/components/productview/ProductViewMainInf
 import GallerySliderPV from "@/components/productview/GallerySliderPV";
 
 export default {
-  // item: [],
+  item: [],
   data: function() {
     return {
-      // item: products[$route.params.id]
+      item: this.$store.getters.getAllProducts[this.$route.params.id]
     };
   },
   components: {

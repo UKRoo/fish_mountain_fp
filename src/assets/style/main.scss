@@ -585,6 +585,9 @@ footer {
   .gal-block {
     display: inline-flex;
     flex-wrap: nowrap;
+    a {
+      text-decoration: none;
+    }
 
     .fs-gall-cat-big-w {
       width: $fs-gall-cat-big-w;
@@ -1240,15 +1243,6 @@ i {
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 80px;
-
-  .product-view-sl-image:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-
-    img {
-      width: 150%;
-    }
-  }
 }
 
 .product-view-tab-info {
