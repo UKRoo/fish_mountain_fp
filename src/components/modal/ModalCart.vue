@@ -64,6 +64,7 @@
           </div>
         </div>
       </div>
+      {{test}}
     </div>
     <!-- Modal: modalCart -->
   </section>
@@ -85,7 +86,10 @@ export default {
     },
     totalPrice () {
       return this.items.reduce((acc, item) => acc + (item.price * 1), 0);
-    }
+    },
+    test () {
+     return console.log(1) //!!TESTTTTT
+    },
   }
 };
 </script>
