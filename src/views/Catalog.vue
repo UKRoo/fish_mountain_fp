@@ -6,13 +6,14 @@
     <div class="fs-container-prod fs-container">
       <ProductSearch />
       <div class="main-goods">
-        <div
-          v-for="item in items"
-          :key="item.id"
-          class="main-goods-tile"
-          :id="item.id"
-        >
-        <div class="add-wishlist"><i v-on:click="item.wishlist = !item.wishlist" class="far fa-heart" v-bind:class="{ in_wish: item.wishlist }" ></i></div>
+        <div v-for="item in items" :key="item.id" class="main-goods-tile" :id="item.id">
+          <div class="add-wishlist">
+            <i
+              v-on:click="item.wishlist = !item.wishlist"
+              class="far fa-heart"
+              v-bind:class="{ in_wish: item.wishlist }"
+            ></i>
+          </div>
           <router-link :to="`/ct/${item.categories}/p-${item.id}`">
             <img :src="`${item.img_main_url}`" :alt="`${item.title}`" />
           </router-link>
@@ -52,9 +53,9 @@ export default {
       if (this.$route.params.pathMatch == "man/") {
         return this.$store.getters.getMale;
       } else {
-         return this.$store.getters.getFemale;
+        return this.$store.getters.getFemale;
       }
-    },
+    }
   },
   components: {
     ProductSearch,
@@ -65,4 +66,4 @@ export default {
 };
 </script>
 
-      // <i v-on:click="item.wishlist = true" class="far fa-heart"></i>
+// <i v-on:click="item.wishlist = true" class="far fa-heart"></i>
