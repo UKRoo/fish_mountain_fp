@@ -14,7 +14,7 @@
           <!--Header-->
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabelCart">
-              In your CART 4 items
+              In your CART {{this.items.length}} items
             </h4>
             <button
               type="button"
@@ -32,60 +32,22 @@
                 <tr></tr>
               </thead>
               <tbody>
-                <tr>
-                  <th scope="row">
-                    <router-link to=""><i class="fas fa-times"></i></router-link>
-                  </th>
-                  <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
-                  <td>
-                    Jacket Jack Wolfskin<br />
-                    Men
-                  </td>
+                <tr v-for="item in items" :key="item.id">
+                  <th scope="row"><router-link to=""><i 
+                  v-on:click="item.cart = !item.cart"
+                  class="fas fa-times"></i></router-link></th>
+                  <td><img :src="`/img/products/product_${item.id}.jpg`" alt=""></td>
+                  <td>{{item.title}}<br>{{item.gender}}</td>
                   <td>1</td>
-                  <td>160$</td>
+                  <td>${{item.price}}</td>
                 </tr>
-                <tr>
-                  <th scope="row">
-                    <router-link to=""><i class="fas fa-times"></i></router-link>
-                  </th>
-                  <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
-                  <td>
-                    Jacket Jack Wolfskin<br />
-                    Men
-                  </td>
-                  <td>1</td>
-                  <td>160$</td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <router-link to=""><i class="fas fa-times"></i></router-link>
-                  </th>
-                  <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
-                  <td>
-                    Jacket Jack Wolfskin<br />
-                    Men
-                  </td>
-                  <td>1</td>
-                  <td>160$</td>
-                </tr>
-                <tr>
-                  <th scope="row">
-                    <router-link to=""><i class="fas fa-times"></i></router-link>
-                  </th>
-                  <td><img src="@/assets/img/cart_itms.png" alt="" /></td>
-                  <td>
-                    Jacket Jack Wolfskin<br />
-                    Men
-                  </td>
-                  <td>1</td>
-                  <td>160$</td>
-                </tr>
+
                 <tr class="total">
                   <th scope="row">&#8195;</th>
                   <td>&#8195;</td>
                   <td>&#8195;</td>
                   <td>Total</td>
-                  <td>640$</td>
+                  <td>${{totalPrice}}</td>
                 </tr>
               </tbody>
             </table>
@@ -106,11 +68,23 @@
     <!-- Modal: modalCart -->
   </section>
 </template>
+<style lang="scss" scoped>
+img {
+  height: 60px;
+}
+.fa-times {
+  color: #302640;
+}
+</style>
+
 <script>
 export default {
   computed: {
     items() {
-      return this.$store.getters.getMale;
+      return this.$store.getters.getCart;
+    },
+    totalPrice () {
+      return this.items.reduce((acc, item) => acc + (item.price * 1), 0);
     }
   }
 };

@@ -69,7 +69,7 @@ export default [
       "XL"
     ],
     "wishlist": true,
-    "cart": false,
+    "cart": true,
   },
       {
     "id": "4",
@@ -184,7 +184,7 @@ export default [
       "XL"
     ],
     "wishlist": false,
-    "cart": false,
+    "cart": true,
   },
   {
   "id": "9",

@@ -1,6 +1,6 @@
 <template>
   <div class="fs-container wishlist-container">
-    <h2>WISHLIST</h2>
+    <h2>Wishlist</h2>
     <hr />
     <div class="wishlist-tile">
       <div class="wishlist-tile-main">
