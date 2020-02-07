@@ -32,6 +32,7 @@
             <h2>{{ item.gender }}</h2>
           </div>
         </div>
+        {{}}
         <SubcategoryDescription />
       </div>
     </div>
@@ -39,8 +40,6 @@
 </template>
 <script>
 // import { mapGetters, mapActions } from "vuex";
-
-// import products from "@/json/products.json.js";
 import ProductSearch from "@/components/search/ProductSearch";
 import Footer from "@/components/footer/Footer";
 import TopNav from "@/components/search/nav/TopNav";
@@ -48,10 +47,18 @@ import TopBanner from "@/components/search/nav/TopBanner";
 import SubcategoryDescription from "@/components/products/SubcategoryDescription";
 
 export default {
-  computed: {
+   gender: '',
+   computed: {
+    gender () {
+     let a =  this.$route.params.pathMatch.split('/')
+     return console.log(a)
+    },
     items() {
       if (this.$route.params.pathMatch == "man/") {
+        // console.log(this.$route.params.pathMatch.split('/'))
+
         return this.$store.getters.getMale;
+
       } else {
         return this.$store.getters.getFemale;
       }

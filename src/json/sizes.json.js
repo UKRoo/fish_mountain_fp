@@ -7,7 +7,8 @@ export default [
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "XXL"
       ],
     },
     {

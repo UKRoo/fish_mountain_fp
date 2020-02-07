@@ -1,10 +1,11 @@
 <template>
   <section>
+    {{size}}
     <TopBannerPV />
     <div class="fs-container">
       <div class="fs-prod-vw-nav">
-        <router-link to="#">
-          <i class="fas fa-angle-left"></i>Back to Men’s Jackets
+        <router-link :to="`/ct/${item.categories}`">
+          <i class="fas fa-angle-left"></i>Back to {{item.gender}} {{item.categories}}
         </router-link>
       </div>
       <div class="fs-prod-vw-main">
@@ -25,9 +26,11 @@ import GallerySliderPV from "@/components/productview/GallerySliderPV";
 
 export default {
   item: [],
+  size: [],
   data: function() {
     return {
-      item: this.$store.getters.getAllProducts[this.$route.params.id]
+      item: this.$store.getters.getAllProducts[this.$route.params.id],
+      size: this.$store.getters.getAllSizes[this.$route.params.id]
     };
   },
   components: {
