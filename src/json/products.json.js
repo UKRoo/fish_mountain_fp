@@ -153,7 +153,7 @@ export default [
         "/img/products/product_7.jpg",
         "/img/products/product_7.jpg",
     ],
-    "price": "20050",
+    "price": "257",
     "sizes": [
       "S",
       "M",

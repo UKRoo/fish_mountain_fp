@@ -11,9 +11,27 @@
     <div id="collapse-8" class="collapse" aria-labelledby="heading-8"
       data-parent="#accordionProductSearch">
       <div class="card-body">
-     BRAND
+               <div class="custom-control custom-checkbox" v-for="brand in brands" :key="brand">
+           <input class="custom-control-input" type="checkbox" :id="brand">
+          <label class="custom-control-label" :for="brand">{{ brand }}</label>
+  </div>
       </div>
     </div>
   </div>
 
 </template>
+<script>
+export default {
+  data: function() {
+   return {
+        brands: [
+    "Nike",
+    "Alias",
+    "Paper",
+    "Same",
+    "Red",
+  ]
+   } 
+  },
+}
+</script>

@@ -11,8 +11,26 @@
     <div id="collapse-7" class="collapse" aria-labelledby="heading-7"
       data-parent="#accordionProductSearch">
       <div class="card-body">
-     TECHNOLOGY
+               <div class="custom-control custom-checkbox" v-for="technology in technologys" :key="technology">
+           <input class="custom-control-input" type="checkbox" :id="technology">
+          <label class="custom-control-label" :for="technology">{{ technology }}</label>
+  </div>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  data: function() {
+   return {
+        technologys: [
+    "technology1",
+    "technology2",
+    "technology3",
+    "technology4",
+    "technology5",
+  ]
+   } 
+  },
+}
+</script>

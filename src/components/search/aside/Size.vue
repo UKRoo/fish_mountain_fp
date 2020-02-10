@@ -11,8 +11,28 @@
     <div id="collapse-3" class="collapse" aria-labelledby="heading-3"
       data-parent="#accordionProductSearch">
       <div class="card-body">
-     3
+               <div class="custom-control custom-checkbox" v-for="size in sizes" :key="size">
+           <input class="custom-control-input" type="checkbox" :id="size">
+          <label class="custom-control-label" :for="size">{{ size }}</label>
+               </div>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  data: function() {
+   return {
+        sizes: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+  ]
+   } 
+   
+
+  },
+}
+</script>

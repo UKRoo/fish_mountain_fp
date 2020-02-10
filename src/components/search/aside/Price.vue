@@ -11,7 +11,8 @@
     <div id="collapse-5" class="collapse" aria-labelledby="heading-5"
       data-parent="#accordionProductSearch">
       <div class="card-body">
-     PRICE
+     <label for="customRange1">Price</label>
+<input type="range" class="custom-range" id="customRange1">
       </div>
     </div>
   </div>

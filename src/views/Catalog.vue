@@ -25,10 +25,9 @@
                 <i class="fas fa-square-full"></i>
               </div>
             </div>
-            <h3>{{ item.activity }}</h3>
+            <h2>{{ item.gender }}'s {{ item.activity }}</h2>
             <h2>{{ item.title }}</h2>
             <h2>${{ item.price }}</h2>
-            <h2>{{ item.gender }}</h2>
           </div>
         </div>
         {{}}

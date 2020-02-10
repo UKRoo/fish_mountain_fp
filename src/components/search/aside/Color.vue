@@ -11,8 +11,26 @@
     <div id="collapse-4" class="collapse" aria-labelledby="heading-4"
       data-parent="#accordionProductSearch">
       <div class="card-body">
-     4
+               <div class="custom-control custom-checkbox" v-for="color in colors" :key="color">
+           <input class="custom-control-input" type="checkbox" :id="color">
+          <label class="custom-control-label" :for="color">{{ color }}</label>
+  </div>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  data: function() {
+   return {
+        colors: [
+    "Red",
+    "Green",
+    "Blue",
+    "Yellow",
+    "Orange",
+  ]
+   } 
+  },
+}
+</script>
