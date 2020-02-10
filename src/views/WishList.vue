@@ -11,7 +11,6 @@
           <h2>Patagonia Better Sweater® Jacket</h2>
           <h3>Color: Light Beige</h3>
           <h3>In stock</h3>
-          <h3>In stock</h3>
           <router-link to="#">
             <h3>Remove</h3>
           </router-link>
@@ -47,3 +46,12 @@
     <hr />
   </div>
 </template>
+<script>
+export default {
+  computed: {
+    items() {
+      return this.$store.getters.getWishlist;
+    }
+  }
+};
+</script>

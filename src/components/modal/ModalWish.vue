@@ -33,7 +33,7 @@
           </div>
           <!--Footer-->
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <router-link tag="button" to="/wishlist" type="button" class="btn btn-outline-primary" data-dismiss="modal">SEE ALL ITEMS</router-link>
           </div>
         </div>
       </div>
@@ -47,6 +47,9 @@ img {
 }
 .fa-times {
   color: #302640;
+}
+.modal-footer {
+  justify-content: center !important;
 }
 </style>
 <script>
