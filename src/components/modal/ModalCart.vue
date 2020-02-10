@@ -60,7 +60,7 @@
             >
               Close
             </button>
-            <button class="btn btn-primary">Checkout</button>
+            <router-link tag="button" to="/cart" class="btn btn-primary" data-dismiss="modal">Checkout</router-link>
           </div>
         </div>
       </div>

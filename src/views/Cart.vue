@@ -35,7 +35,7 @@
       </div>
 
       </div>
-      <div class="cart-order-info"><!--  -->4</div>
+      <CartOrderInfo />
     </div>
   </div>
 </template>
@@ -100,11 +100,16 @@ select {
 }
 </style>
 <script>
+import CartOrderInfo from "@/components/payment/CartOrderInfo";
+
 export default {
   computed: {
     items() {
       return this.$store.getters.getCart;
     }
+  },
+  components: {
+    CartOrderInfo
   }
 };
 </script>
