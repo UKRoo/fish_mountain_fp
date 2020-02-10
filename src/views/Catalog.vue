@@ -1,6 +1,5 @@
 <template>
   <section>
-    <!-- {{this.$store.getters.getWishlist}} -->
     <TopNav />
     <TopBanner />
     <div class="fs-container-prod fs-container">
@@ -49,16 +48,12 @@ import SubcategoryDescription from "@/components/products/SubcategoryDescription
 export default {
    gender: '',
    computed: {
-    gender () {
-     let a =  this.$route.params.pathMatch.split('/')
-     return console.log(a)
+    gender () { 
+     return this.$route.params.pathMatch.split('/')[0]
     },
     items() {
-      if (this.$route.params.pathMatch == "man/") {
-        // console.log(this.$route.params.pathMatch.split('/'))
-
+      if (this.$route.params.pathMatch.split('/')[0] == "men") {
         return this.$store.getters.getMale;
-
       } else {
         return this.$store.getters.getFemale;
       }

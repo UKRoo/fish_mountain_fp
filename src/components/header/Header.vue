@@ -66,13 +66,13 @@
           <br />in adventure we trust
         </router-link>
         <div>
-          <router-link to="/ct/women/">Women</router-link>
-          <router-link to="/ct/man/">Men</router-link>
-          <router-link to="/ct/kids/">Kids</router-link>
-          <router-link to="/ct/sale/">
+          <router-link to="/ct/women">Women</router-link>
+          <router-link to="/ct/men">Men</router-link>
+          <router-link to="/ct/kids">Kids</router-link>
+          <router-link to="/ct/sale">
             <b>Sale</b>
           </router-link>
-          <router-link to="/contact/">Contact us</router-link>
+          <router-link to="/contact">Contact us</router-link>
         </div>
       </div>
       <ModalBlock />
