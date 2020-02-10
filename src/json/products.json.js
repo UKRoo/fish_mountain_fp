@@ -97,7 +97,7 @@ export default [
       {
     "id": "5",
     "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
     "gender": "female",
@@ -143,7 +143,7 @@ export default [
       {
     "id": "7",
     "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
     "gender": "male",
@@ -166,7 +166,7 @@ export default [
       {
     "id": "8",
     "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
     "gender": "female",
@@ -188,7 +188,7 @@ export default [
   },
   {
   "id": "9",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "categories": "clothing",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
@@ -283,7 +283,7 @@ export default [
     {
   "id": "13",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "female",
@@ -329,7 +329,7 @@ export default [
     {
   "id": "15",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "male",
@@ -352,7 +352,7 @@ export default [
     {
   "id": "16",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "female",
@@ -375,7 +375,7 @@ export default [
 {
   "id": "17",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "female",
@@ -398,7 +398,7 @@ export default [
 {
   "id": "18",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "female",
@@ -421,7 +421,7 @@ export default [
 {
   "id": "19",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "female",
@@ -444,7 +444,7 @@ export default [
 {
   "id": "20",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "female",
@@ -467,7 +467,7 @@ export default [
 {
   "id": "21",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
   "gender": "female",

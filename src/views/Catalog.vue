@@ -30,7 +30,6 @@
             <h2>${{ item.price }}</h2>
           </div>
         </div>
-        {{}}
         <SubcategoryDescription />
       </div>
     </div>

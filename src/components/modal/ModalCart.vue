@@ -86,6 +86,7 @@ export default {
     totalPrice () {
       return this.items.reduce((acc, item) => acc + (item.price * 1), 0);
     },
+
   }
 };
 </script>

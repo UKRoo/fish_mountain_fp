@@ -1368,7 +1368,7 @@ i {
   }
 
   .cart-product-tile {
-    display: flex;
+    // display: flex;
     flex-grow: 2;
   }
 
@@ -1378,6 +1378,8 @@ i {
   }
 
   .cart-product-tile-icons {
+    display: flex;
+    align-items: center;
     i {
       padding-left: 18px;
       padding-right: 18px;
