@@ -2,12 +2,12 @@
     <section>
     <div class="btn-group-vertical fs-social-btn" role="group" aria-label="Vertical button group">
       
-      <a href="">&nbsp;</a>
-      <a href=""><i class="fab fa-instagram"></i></a>
-      <a href=""><i class="fab fa-facebook-f"></i></a>
-      <a href=""><i class="fas fa-map-marker-alt"></i></a>
-      <a href=""><i class="fab fa-telegram-plane"></i></a>
-      <a href=""><i class="fab fa-youtube"></i></a>
+      <router-link to="">&nbsp;</router-link>
+      <router-link to=""><i class="fab fa-instagram"></i></router-link>
+      <router-link to=""><i class="fab fa-facebook-f"></i></router-link>
+      <router-link to=""><i class="fas fa-map-marker-alt"></i></router-link>
+      <router-link to=""><i class="fab fa-telegram-plane"></i></router-link>
+      <router-link to=""><i class="fab fa-youtube"></i></router-link>
     </div>
     <div id="first-screen"></div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

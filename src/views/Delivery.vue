@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a href="#" data-toggle="modal" data-target="#basicRegModal">I have an Account/SIGN IN</a>
-    <a href="#">I want continue as a GUEST</a>
+    <router-link to="#" data-toggle="modal" data-target="#basicRegModal">I have an Account/SIGN IN</router-link>
+    <router-link to="#">I want continue as a GUEST</router-link>
   </div>
 </template>
 <style lang="css" scoped>

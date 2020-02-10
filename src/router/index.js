@@ -38,15 +38,25 @@ const routes = [
     name: 'delivery',
     meta: {layout: 'Delivery'},
     component: () => import('../views/Delivery')
+},
+  {
+    path: '/ct/*/p-0',
+    component: Page404
   },
   {
     path: '/ct/*/p-:id',
-    // name: 'man',
     component: () => import('../views/ProductView')
   },
   {
+    path: '/ct/sale/',
+    component: Page404
+  },
+  {
+    path: '/ct/kids/',
+    component: Page404
+  },
+  {
     path: '/ct/*',
-    // name: 'man',
     component: () => import('../views/Catalog'),
   },
   {

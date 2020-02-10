@@ -1,8 +1,8 @@
 export default [
-  // {},
+  {},
   {
     "id": "1",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face",
     "categories": "clothing",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
@@ -69,7 +69,7 @@ export default [
       "XL"
     ],
     "wishlist": true,
-    "cart": false,
+    "cart": true,
   },
       {
     "id": "4",
@@ -153,7 +153,7 @@ export default [
         "/img/products/product_7.jpg",
         "/img/products/product_7.jpg",
     ],
-    "price": "250",
+    "price": "20050",
     "sizes": [
       "S",
       "M",
@@ -184,7 +184,7 @@ export default [
       "XL"
     ],
     "wishlist": false,
-    "cart": false,
+    "cart": true,
   },
   {
   "id": "9",

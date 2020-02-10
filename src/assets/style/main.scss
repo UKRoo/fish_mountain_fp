@@ -17,8 +17,15 @@ body {
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.06em;
-
-
+}
+li {
+  font-family: Muli;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.06em;
+color: #302640;
 }
 
 //////Flex/////
@@ -585,6 +592,9 @@ footer {
   .gal-block {
     display: inline-flex;
     flex-wrap: nowrap;
+    a {
+      text-decoration: none;
+    }
 
     .fs-gall-cat-big-w {
       width: $fs-gall-cat-big-w;
@@ -862,6 +872,20 @@ header {
 .main-goods-tile {
   width: 280px;
   border: 1px;
+  
+ .add-wishlist {
+display: flex;
+flex-direction: row-reverse;
+i {
+  margin-right: 13px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.in_wish {
+  color: red;
+
+}
+ }
  img {
    max-height: 274px;
  }
@@ -1226,15 +1250,6 @@ header {
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 80px;
-
-  .product-view-sl-image:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-
-    img {
-      width: 150%;
-    }
-  }
 }
 
 .product-view-tab-info {

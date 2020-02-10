@@ -1,13 +1,13 @@
 <template>
   <section>
+    {{size}}
     <TopBannerPV />
     <div class="fs-container">
       <div class="fs-prod-vw-nav">
-        <a href>
-          <i class="fas fa-angle-left"></i>Back to Men’s Jackets
-        </a>
+        <router-link :to="`/ct/${item.categories}`">
+          <i class="fas fa-angle-left"></i>Back to {{item.gender}} {{item.categories}}
+        </router-link>
       </div>
-      <!-- ProductView {{$route.params.id}} -->
       <div class="fs-prod-vw-main">
         <ProductViewMainGallery />
         <ProductViewMainInfo />
@@ -18,8 +18,6 @@
   </section>
 </template>
 <script>
-// import products from "@/json/products.json.js";
-
 import TopBannerPV from "@/components/products/TopBannerPV";
 import ProductViewMainGallery from "@/components/productview/ProductViewMainGallery";
 import ProductViewMainInfo from "@/components/productview/ProductViewMainInfo";
@@ -27,10 +25,12 @@ import ProductViewMainInfoTabs from "@/components/productview/ProductViewMainInf
 import GallerySliderPV from "@/components/productview/GallerySliderPV";
 
 export default {
-  // item: [],
+  item: [],
+  size: [],
   data: function() {
     return {
-      // item: products[$route.params.id]
+      item: this.$store.getters.getAllProducts[this.$route.params.id],
+      size: this.$store.getters.getAllSizes[this.$route.params.id]
     };
   },
   components: {

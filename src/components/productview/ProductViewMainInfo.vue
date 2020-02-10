@@ -1,26 +1,32 @@
 <template>
   <div class="fs-prod-vw-info">
     <h2>
-      {{item.title}}
+      {{ item.title }}
     </h2>
-    <h2>Man</h2>
+    <h2>${{ item.gender }}</h2>
     <div class="fs-prod-vw-info-rew flex-sb">
       <h2>
-        <b>${{item.price}}</b>
+        <b>${{ item.price }}</b>
       </h2>
       <div>rew</div>
     </div>
     <div class="fs-prod-vw-info-style flex-sb">
-      <h2>{{item.style}}</h2>
+      <h2>{{ item.style }}</h2>
       <div>rew</div>
     </div>
     <div class="fs-prod-vw-info-size">
       <h3>Select a Size</h3>
       <div class="fs-size-block">
-        <div v-for="(size, index) in item.sizes" :key="index" class="size-square">{{size}}</div>
+        <div
+          v-for="(size, index) in item.sizes"
+          :key="index"
+          class="size-square"
+        >
+          {{ size }}
+        </div>
       </div>
       <h3>
-        <a>Size Guide</a>
+        <router-link to="/">Size Guide</router-link>
       </h3>
       <div class="fs-prod-vw-info-color flex-sb">
         <div class="fs-select-color">
@@ -49,8 +55,8 @@ import products from "@/json/products.json.js";
 export default {
   data: function() {
     return {
-      item: products[this.$route.params.id]
+      item: this.$store.getters.getAllProducts[this.$route.params.id]
     };
-  },
+  }
 };
 </script>

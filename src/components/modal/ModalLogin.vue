@@ -20,7 +20,7 @@
                 role="tab"
                 aria-controls="sign-in"
                 aria-selected="true"
-              >SIGN IN</a>
+              >Sign in</a>
             </li>
             <li class="nav-item">
               <a
@@ -31,7 +31,7 @@
                 role="tab"
                 aria-controls="create"
                 aria-selected="false"
-              >CREATE AN ACCOUNT</a>
+              >Create an account</a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">

@@ -16,11 +16,12 @@ import AccountLayout from '@/layouts/AccountLayout'
 export default {
   computed: {
     layout() {
-      // console.log(this.$route.meta)
+      console.log(this.$route.meta)
       return (this.$route.meta.layout || 'main') + '-layout'
     },
     ...mapGetters({
       products: "getAllProducts",
+      sizes: "getAllSizes",
       maleProducts: "getMale",
       femaleProducts: "getFemale",
     }),
@@ -28,6 +29,7 @@ export default {
   methods: {
     ...mapActions({
       fetchProducts: "fetchProducts",
+      fetchSizes: "fetchSizes",
     }),
   },
   components: {
@@ -37,6 +39,7 @@ export default {
   },
   mounted() {
     this.fetchProducts();
+    this.fetchSizes();
   },
 }
 </script>

@@ -28,5 +28,11 @@ export default {
     getFemale(state) {
       return state.products.filter(product => product.gender === "female")
     },
+    getWishlist(state) {
+      return state.products.filter(product => product.wishlist)
+    },
+    getCart(state) {
+      return state.products.filter(product => product.cart)
+    },
   }
 };

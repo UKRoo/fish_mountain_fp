@@ -58,21 +58,21 @@
               >{{equipment_link.title}}</router-link>
             </div>
           </div>
-          <!-- <a href="#footwear">Equipment</a> -->
-          <a href="/about-us">About us</a>
+          <!-- <router-link to="#footwear">Equipment</router-link> -->
+          <router-link to="/about-us">About us</router-link>
         </div>
-        <a href="/" id="categories-img">
+        <router-link to="/" id="categories-img">
           <img src="@/assets/img/logo.png" alt="logo" />
           <br />in adventure we trust
-        </a>
+        </router-link>
         <div>
-          <a href="/ct/women/">Women</a>
-          <a href="/ct/man/">Men</a>
-          <a href="/ct/kids/">Kids</a>
-          <a href="/ct/sale/">
+          <router-link to="/ct/women">Women</router-link>
+          <router-link to="/ct/men">Men</router-link>
+          <router-link to="/ct/kids">Kids</router-link>
+          <router-link to="/ct/sale">
             <b>Sale</b>
-          </a>
-          <a href="/contact/">Contact us</a>
+          </router-link>
+          <router-link to="/contact">Contact us</router-link>
         </div>
       </div>
       <ModalBlock />
@@ -136,7 +136,6 @@ export default {
         cat: "equipment",
         subcat: "hiking-trekking"
       }
-      // { title: "See More...", cat: "/equipment" },
     ]
   })
 };
