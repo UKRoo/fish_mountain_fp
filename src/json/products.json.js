@@ -33,7 +33,7 @@ export default [
       "42",
       "45"
     ],
-    "wishlist": false,
+    "wishlist": true,
     "cart": false,
   },
       {
@@ -69,7 +69,7 @@ export default [
       "L",
       "XL"
     ],
-    "wishlist": false,
+    "wishlist": true,
     "cart": true,
   },
       {
@@ -303,7 +303,7 @@ export default [
     "L",
     "XL"
   ],
-  "wishlist": false,
+  "wishlist": true,
   "cart": false,
 },
 {
@@ -424,8 +424,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
- 
-
   "price": "250",
   "sizes": [
     "35",

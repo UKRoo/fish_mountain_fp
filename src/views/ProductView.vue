@@ -26,7 +26,6 @@ import ProductViewMainInfoTabs from "@/components/productview/ProductViewMainInf
 import GallerySliderPV from "@/components/productview/GallerySliderPV";
 import ShopTheLook from "@/components/productview/ShopTheLook";
 
-// src\components\products\ShopTheLook.vue
 export default {
   item: [],
   sizes: [],
