@@ -34,7 +34,7 @@ export default {
     getCart(state) {
       return state.products.filter(product => product.cart)
     },
-    getLook(state) {
+    getLooks(state) {
       return state.products.filter(product => product.look)
     },
   }

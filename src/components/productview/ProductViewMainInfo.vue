@@ -48,7 +48,7 @@
         </div>
       </div>
       <h3 class="size-guide">
-        <router-link to="/">Size Guide</router-link>
+        <a href="#" data-toggle="modal" data-target="#modalSizeGuide">Size Guide</a>
       </h3>
       <div class="fs-prod-vw-info-color flex-sb">
         <div class="fs-select-color">
@@ -69,7 +69,7 @@
         </div>
       </div>
     </div>
-    <router-link tag="button" to="/" class="btn btn-primary">ADD TO CART</router-link>
+    <button v-on:click="item.cart = !item.cart" class="btn btn-primary">ADD TO CART</button>
     <div><img :src="`/img/link_to_the_video.jpg`" /></div>
   </div>
 </template>

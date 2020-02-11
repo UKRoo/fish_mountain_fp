@@ -33,9 +33,9 @@
               </thead>
               <tbody>
                 <tr v-for="item in items" :key="item.id">
-                  <th scope="row"><router-link to=""><i 
+                  <th scope="row"><a><i 
                   v-on:click="item.cart = !item.cart"
-                  class="fas fa-times"></i></router-link></th>
+                  class="fas fa-times"></i></a></th>
                   <td><img :src="`/img/products/product_${item.id}.png`" alt=""></td>
                   <td>{{item.title}}<br>{{item.gender}}</td>
                   <td>1</td>
