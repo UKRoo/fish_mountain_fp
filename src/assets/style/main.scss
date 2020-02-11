@@ -883,7 +883,6 @@ i {
 }
 .in_wish {
   color: red;
-
 }
  }
  img {
@@ -1143,7 +1142,7 @@ i {
       font-size: 14px;
       line-height: 18px;
       letter-spacing: 0.06em;
-      text-transform: capitalize;
+      text-transform: none;
       color: #302640;
 
       a {
@@ -1168,6 +1167,7 @@ i {
   }
 
   .fs-prod-vw-info-color {
+      margin-bottom: 74px;
     h3 {
       font-family: Muli;
       font-style: normal;
@@ -1175,7 +1175,7 @@ i {
       font-size: 14px;
       line-height: 18px;
       letter-spacing: 0.06em;
-      text-transform: capitalize;
+      text-transform: none;
       color: #302640;
     }
 
@@ -1244,11 +1244,7 @@ i {
   padding-bottom: 80px;
 }
 
-.product-view-tab-info {
-  height: 392px;
-  background-color: green;
-  padding-bottom: 79px;
-}
+
 
 .wishlist-container {
   h2 {

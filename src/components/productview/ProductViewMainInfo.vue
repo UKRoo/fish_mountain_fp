@@ -69,9 +69,15 @@
         </div>
       </div>
     </div>
+    <router-link tag="button" to="/" class="btn btn-primary">ADD TO CART</router-link>
+    <div><img :src="`/img/link_to_the_video.jpg`" /></div>
   </div>
 </template>
 <style lang="scss" scoped>
+button {
+  width: 100%;
+  margin-bottom: 74px;
+}
     h3 {
 font-family: Muli;
 font-style: normal;

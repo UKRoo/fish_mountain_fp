@@ -15,6 +15,7 @@
     </div>
     <GallerySliderPV />
     <ProductViewMainInfoTabs />
+    <ShopTheLook />
   </section>
 </template>
 <script>
@@ -23,7 +24,9 @@ import ProductViewMainGallery from "@/components/productview/ProductViewMainGall
 import ProductViewMainInfo from "@/components/productview/ProductViewMainInfo";
 import ProductViewMainInfoTabs from "@/components/productview/ProductViewMainInfoTabs";
 import GallerySliderPV from "@/components/productview/GallerySliderPV";
+import ShopTheLook from "@/components/productview/ShopTheLook";
 
+// src\components\products\ShopTheLook.vue
 export default {
   item: [],
   sizes: [],
@@ -38,7 +41,8 @@ export default {
     ProductViewMainGallery,
     ProductViewMainInfo,
     GallerySliderPV,
-    ProductViewMainInfoTabs
+    ProductViewMainInfoTabs,
+    ShopTheLook
   }
 };
 </script>

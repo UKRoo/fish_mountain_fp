@@ -2,57 +2,170 @@
   <div class="fs-container product-view-tab-info">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
-        <router-link
+        <a
           class="nav-link active"
-          id="home-tab"
+          id="description-tab"
           data-toggle="tab"
-          to="#home"
+          href="#description"
           role="tab"
-          aria-controls="home"
+          aria-controls="description"
           aria-selected="true"
-        >DESCRIPTION</router-link>
+          >DESCRIPTION</a
+        >
       </li>
       <li class="nav-item">
-        <router-link
+        <a
           class="nav-link"
-          id="profile-tab"
+          id="details-tab"
           data-toggle="tab"
-          to="#profile"
+          href="#details"
           role="tab"
-          aria-controls="profile"
+          aria-controls="details"
           aria-selected="false"
-        >DETAILS</router-link>
+          >DETAILS</a
+        >
       </li>
       <li class="nav-item">
-        <router-link
+        <a
           class="nav-link"
-          id="contact-tab"
+          id="advantages-tab"
           data-toggle="tab"
-          to="#contact"
+          href="#advantages"
           role="tab"
-          aria-controls="contact"
+          aria-controls="advantages"
           aria-selected="false"
-        >ADVANTAGES</router-link>
+          >ADVANTAGES</a
+        >
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        Raw denim you
-        probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
-        cleanse. Mustache cliche tempo
+      <div
+        class="tab-pane fade show active"
+        id="description"
+        role="tabpanel"
+        aria-labelledby="description-tab"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
       </div>
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-        Food truck fixie
-        locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit,
-        blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
-        Qui photo booth letterpress, commodo enim craft beer mlkshk
+      <div
+        class="tab-pane fade"
+        id="details"
+        role="tabpanel"
+        aria-labelledby="details-tab"
+      >
+        <div class="fs-details-tab">
+          <div>
+            <p><b>Brand</b></p>
+            <p><b>Fabric</b></p>
+            <p><b>Care</b></p>
+            <p><b>Guarantee</b></p>
+          </div>
+          <div>
+            <p>The North Face</p>
+            <p>100% Polyester Jacquard</p>
+            <p>Machine Wash</p>
+            <p>Lifetime Warranty</p>
+          </div>
+        </div>
       </div>
-      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-        Etsy mixtape
-        wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack
-        lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
-        locavore carles etsy salvia banksy
+      <div
+        class="tab-pane fade"
+        id="advantages"
+        role="tabpanel"
+        aria-labelledby="advantages-tab"
+      >
+        <div class="fs-advantages-det">
+          <div class="adv-det">
+            <img :src="`/img/skiing.png`" />
+            <p>Skiing</p>
+          </div>
+          <div class="adv-det">
+            <img :src="`/img/snowboarding.png`" />
+            <p>Snowboarding</p>
+          </div>
+          <div class="adv-det">
+            <img :src="`/img/waterproof.png`" />
+            <p>Waterproof</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</template>
+</template>-
+<style lang="scss" scoped>
+.fs-advantages-det {
+  display: flex;
+  justify-content: center;
+  .adv-det {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 19px;
+    margin-bottom: 98px;
+    p {
+      margin-top: 26px;
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: 0.06em;
+      text-transform: capitalize;
+      color: #302640;
+    }
+  }
+}
+.fs-details-tab {
+  display: flex;
+  b {
+    margin-right: 45px;
+  }
+  p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #302640;
+  }
+}
+.tab-pane {
+  margin-left: 15px;
+  margin: 75px 15px 75px 15px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+
+  color: #000000;
+}
+
+.product-view-tab-info {
+  height: 392px;
+  background-color: #f8f8f8;
+  padding-bottom: 79px;
+  margin-bottom: 84px;
+  a {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #302640;
+  }
+}
+</style>

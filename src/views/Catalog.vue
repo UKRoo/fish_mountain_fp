@@ -14,7 +14,8 @@
             ></i>
           </div>
           <router-link :to="`/ct/${item.categories}/p-${item.id}`">
-            <img :src="`${item.img_main_url}`" :alt="`${item.title}`" />
+            <!-- <img :src="`${item.img_main_url}`" :alt="`${item.title}`" /> -->
+             <img :src="`/img/products/product_${item.id}.png`" />
           </router-link>
           <div class="main-goods-tile-desc">
             <div class="text-center">
