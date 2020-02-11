@@ -6,7 +6,7 @@ export default [
     "categories": "clothing",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
-    "style": "Fit",
+    "style": "fit",
     "gender": "male",
     "img_main_url": "/img/products/product_1.jpg",
     "img_gall_url": [
@@ -30,6 +30,7 @@ export default [
     "title": "Skinners Barefoot Shoes",
     "subcategories": "hiking-shoes",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
     "img_main_url": "/img/products/product_2.jpg",
     "img_gall_url": [
@@ -54,6 +55,7 @@ export default [
     "title": "Joma Backpack",
     "subcategories": "camping-fishing",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
     "img_main_url": "/img/products/product_3.jpg",
     "img_gall_url": [
@@ -77,6 +79,7 @@ export default [
     "title": "Kempa Attitude",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
     "img_main_url": "/img/products/product_4.jpg",
     "img_gall_url": [
@@ -100,6 +103,7 @@ export default [
     "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "female",
     "img_main_url": "/img/products/product_5.jpg",
     "img_gall_url": [
@@ -123,6 +127,7 @@ export default [
     "title": "Skinners Barefoot Shoes",
     "subcategories": "hiking-shoes",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
     "img_main_url": "/img/products/product_6.jpg",
     "img_gall_url": [
@@ -146,6 +151,7 @@ export default [
     "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
     "img_main_url": "/img/products/product_7.jpg",
     "img_gall_url": [
@@ -169,6 +175,7 @@ export default [
     "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "female",
     "img_main_url": "/img/products/product_8.jpg",
     "img_gall_url": [
@@ -192,7 +199,7 @@ export default [
   "categories": "clothing",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
-  "style": "Fit",
+  "style": "fit",
   "gender": "male",
   "img_main_url": "/img/products/product_1.jpg",
   "img_gall_url": [
@@ -216,6 +223,7 @@ export default [
   "title": "Skinners Barefoot Shoes",
   "subcategories": "hiking-shoes",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
   "img_main_url": "/img/products/product_2.jpg",
   "img_gall_url": [
@@ -240,6 +248,7 @@ export default [
   "title": "Joma Backpack",
   "subcategories": "camping-fishing",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
   "img_main_url": "/img/products/product_3.jpg",
   "img_gall_url": [
@@ -263,6 +272,7 @@ export default [
   "title": "Kempa Attitude",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
   "img_main_url": "/img/products/product_4.jpg",
   "img_gall_url": [
@@ -286,6 +296,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
   "img_main_url": "/img/products/product_5.jpg",
   "img_gall_url": [
@@ -309,6 +320,7 @@ export default [
   "title": "Skinners Barefoot Shoes",
   "subcategories": "hiking-shoes",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
   "img_main_url": "/img/products/product_6.jpg",
   "img_gall_url": [
@@ -332,6 +344,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
   "img_main_url": "/img/products/product_7.jpg",
   "img_gall_url": [
@@ -355,6 +368,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
   "img_main_url": "/img/products/product_8.jpg",
   "img_gall_url": [
@@ -378,6 +392,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
   "img_main_url": "/img/products/product_5.jpg",
   "img_gall_url": [
@@ -401,6 +416,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
   "img_main_url": "/img/products/product_5.jpg",
   "img_gall_url": [
@@ -424,6 +440,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
   "img_main_url": "/img/products/product_5.jpg",
   "img_gall_url": [
@@ -447,6 +464,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
   "img_main_url": "/img/products/product_5.jpg",
   "img_gall_url": [
@@ -470,6 +488,7 @@ export default [
   "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
   "img_main_url": "/img/products/product_5.jpg",
   "img_gall_url": [

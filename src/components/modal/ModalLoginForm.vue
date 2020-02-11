@@ -22,8 +22,8 @@
                 </div>
 
                 <!-- Sign in button -->
-                <router-link tag="button" to="/" class="btn btn-primary btn-block my-4" type="submit">Sign in</router-link>
-                <router-link tag="button" to="/" class="btn btn-primary btn-block my-4" type="submit">Login
+                <router-link tag="button" to="/" class="btn btn-primary btn-block my-4" type="submit" data-dismiss="modal">Sign in</router-link>
+                <router-link tag="button" to="/" class="btn btn-primary btn-block my-4" type="submit" data-dismiss="modal">Login
                   with Facebook</router-link>
                 <!-- Register -->
                 <p>Not a member?
