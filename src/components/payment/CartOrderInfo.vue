@@ -7,7 +7,7 @@
       </div>
       <div class="cart-block">
         <div class="cart-block-items" v-for="item in items" :key="item.id">
-          <img :src="`/img/products/product_${item.id}.jpg`" alt />
+          <img :src="`/img/products/product_${item.id}.png`" alt />
           <div class="d-flex justify-content-between right-block-info">
             <h4>{{ item.title }}</h4>
             <h3>${{ item.price }}</h3>

@@ -3,12 +3,12 @@
     <div>
       <div class="slider slider-for">
         <div v-for="n in 3" class="main-img">
-          <img :src="`/img/products/product_vw_${$route.params.id}_${n}.jpg`" />
+          <img :src="`/img/products/product_vw_${$route.params.id}_${n}.png`" />
         </div>
       </div>
       <div class="slider slider-nav">
         <div v-for="n in 3">
-          <img :src="`/img/products/product_vw_${$route.params.id}_${n}.jpg`" />
+          <img :src="`/img/products/product_vw_${$route.params.id}_${n}.png`" />
         </div>
       </div>
     </div>

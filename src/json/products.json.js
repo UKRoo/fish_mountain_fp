@@ -8,12 +8,6 @@ export default [
     "activity": "Outdoors",
     "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_1.jpg",
-    "img_gall_url": [
-        "/img/products/product_1.jpg",
-        "/img/products/product_1.jpg",
-        "/img/products/product_1.jpg",
-    ],
     "price": "555",
     "sizes": [
       "S",
@@ -32,13 +26,6 @@ export default [
     "activity": "Outdoors",
   "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_2.jpg",
-    "img_gall_url": [
-        "/img/products/product_2.jpg",
-        "/img/products/product_2.jpg",
-        "/img/products/product_2.jpg",
-    
-    ],
     "price": "75",
     "sizes": [
       "35",
@@ -57,12 +44,6 @@ export default [
     "activity": "Outdoors",
   "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_3.jpg",
-    "img_gall_url": [
-        "/img/products/product_3.jpg",
-        "/img/products/product_3.jpg",
-        "/img/products/product_3.jpg",
-    ],
     "price": "650",
     "sizes": [
       "S",
@@ -81,12 +62,6 @@ export default [
     "activity": "Outdoors",
   "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_4.jpg",
-    "img_gall_url": [
-        "/img/products/product_4.jpg",
-        "/img/products/product_4.jpg",
-        "/img/products/product_4.jpg",
-    ],
     "price": "999",
     "sizes": [
       "S",
@@ -105,12 +80,6 @@ export default [
     "activity": "Outdoors",
   "style": "fit",
     "gender": "female",
-    "img_main_url": "/img/products/product_5.jpg",
-    "img_gall_url": [
-        "/img/products/product_5.jpg",
-        "/img/products/product_5.jpg",
-        "/img/products/product_5.jpg",
-    ],
     "price": "250",
     "sizes": [
       "S",
@@ -129,12 +98,6 @@ export default [
     "activity": "Outdoors",
   "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_6.jpg",
-    "img_gall_url": [
-        "/img/products/product_6.jpg",
-        "/img/products/product_6.jpg",
-        "/img/products/product_6.jpg",
-    ],
     "price": "250",
     "sizes": [
       "35",
@@ -153,12 +116,6 @@ export default [
     "activity": "Outdoors",
   "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_7.jpg",
-    "img_gall_url": [
-        "/img/products/product_7.jpg",
-        "/img/products/product_7.jpg",
-        "/img/products/product_7.jpg",
-    ],
     "price": "257",
     "sizes": [
       "S",
@@ -177,12 +134,6 @@ export default [
     "activity": "Outdoors",
   "style": "fit",
     "gender": "female",
-    "img_main_url": "/img/products/product_8.jpg",
-    "img_gall_url": [
-        "/img/products/product_8.jpg",
-        "/img/products/product_8.jpg",
-        "/img/products/product_8.jpg",
-    ],
     "price": "250",
     "sizes": [
       "S",
@@ -201,12 +152,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_1.jpg",
-  "img_gall_url": [
-      "/img/products/product_1.jpg",
-      "/img/products/product_1.jpg",
-      "/img/products/product_1.jpg",
-  ],
   "price": "555",
   "sizes": [
     "S",
@@ -225,13 +170,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_2.jpg",
-  "img_gall_url": [
-      "/img/products/product_2.jpg",
-      "/img/products/product_2.jpg",
-      "/img/products/product_2.jpg",
-  
-  ],
   "price": "75",
   "sizes": [
     "35",
@@ -250,12 +188,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_3.jpg",
-  "img_gall_url": [
-      "/img/products/product_3.jpg",
-      "/img/products/product_3.jpg",
-      "/img/products/product_3.jpg",
-  ],
   "price": "650",
   "sizes": [
     "S",
@@ -274,12 +206,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_4.jpg",
-  "img_gall_url": [
-      "/img/products/product_4.jpg",
-      "/img/products/product_4.jpg",
-      "/img/products/product_4.jpg",
-  ],
   "price": "999",
   "sizes": [
     "S",
@@ -298,12 +224,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -322,12 +242,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_6.jpg",
-  "img_gall_url": [
-      "/img/products/product_6.jpg",
-      "/img/products/product_6.jpg",
-      "/img/products/product_6.jpg",
-  ],
   "price": "250",
   "sizes": [
     "35",
@@ -346,12 +260,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_7.jpg",
-  "img_gall_url": [
-      "/img/products/product_7.jpg",
-      "/img/products/product_7.jpg",
-      "/img/products/product_7.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -370,12 +278,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_8.jpg",
-  "img_gall_url": [
-      "/img/products/product_8.jpg",
-      "/img/products/product_8.jpg",
-      "/img/products/product_8.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -394,12 +296,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -418,12 +314,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -442,12 +332,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -466,12 +350,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -490,12 +368,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -514,12 +386,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -539,12 +405,6 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -564,18 +424,14 @@ export default [
   "activity": "Outdoors",
   "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
+ 
+
   "price": "250",
   "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL"
+    "35",
+    "37",
+    "42",
+    "45"
   ],
   "wishlist": false,
   "cart": false,

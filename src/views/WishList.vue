@@ -5,7 +5,7 @@
     <div class="wishlist-tile" v-for="item in items" :key="item.id">
       <div class="wishlist-tile-main">
         <div class="wishlist-tile-main-img">
-          <img :src="`/img/products/product_${item.id}.jpg`" alt="">
+          <img :src="`/img/products/product_${item.id}.png`" alt="">
         </div>
         <div class="wishlist-tile-main-info">
           <h2>Patagonia Better Sweater® Jacket</h2>
@@ -18,7 +18,7 @@
       </div>
       <div class="wishlist-tile-order-info">
         <div class="wishlist-tile-order-gall">
-          <img v-for="n in 4" :key="n" :src="`/img/products/product_${item.id}.jpg`" alt="">
+          <img v-for="n in 4" :key="n" :src="`/img/products/product_${item.id}.png`" alt="">
         </div>
         <div class="wishlist-tile-order-sizes-info flex-sb ">
           <div class="wishlist-tile-order-size">

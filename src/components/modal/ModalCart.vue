@@ -36,7 +36,7 @@
                   <th scope="row"><router-link to=""><i 
                   v-on:click="item.cart = !item.cart"
                   class="fas fa-times"></i></router-link></th>
-                  <td><img :src="`/img/products/product_${item.id}.jpg`" alt=""></td>
+                  <td><img :src="`/img/products/product_${item.id}.png`" alt=""></td>
                   <td>{{item.title}}<br>{{item.gender}}</td>
                   <td>1</td>
                   <td>${{item.price}}</td>

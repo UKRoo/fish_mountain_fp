@@ -7,7 +7,7 @@
         <div class="cart-product-tile" v-for="item in items" :key="item.id">
           <div class="d-flex">
             <div>
-              <img :src="`/img/products/product_${item.id}.jpg`" alt="" />
+              <img :src="`/img/products/product_${item.id}.png`" alt="" />
             </div>
             <div class="product-tile-info">
               <div class="flex-sb">
