@@ -84,7 +84,7 @@ export default {
       return this.$store.getters.getCart;
     },
     totalPrice () {
-      return this.items.reduce((acc, item) => acc + (item.price * 1), 0);
+      return this.items.reduce((total, item) => total + (item.price * 1), 0);
     },
 
   }

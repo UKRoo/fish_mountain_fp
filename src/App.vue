@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- {{femaleProducts}} -->
     <component :is="layout">
      <router-view/>
     </component>

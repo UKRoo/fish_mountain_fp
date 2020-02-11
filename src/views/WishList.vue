@@ -34,7 +34,7 @@
           </div>
         </div>
         <router-link to="#"><h3>Size guide</h3></router-link>
-        <button class="btn btn-outline-primary">ADD TO CART</button>
+        <button v-on:click="item.cart = !item.cart" class="btn btn-outline-primary">ADD TO CART</button>
       </div>
     </div>
     <hr />

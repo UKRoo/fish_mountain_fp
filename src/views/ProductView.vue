@@ -1,6 +1,6 @@
 <template>
   <section>
-    {{size}}
+    <!-- {{sizes}} -->
     <TopBannerPV />
     <div class="fs-container">
       <div class="fs-prod-vw-nav">
@@ -26,11 +26,11 @@ import GallerySliderPV from "@/components/productview/GallerySliderPV";
 
 export default {
   item: [],
-  size: [],
+  sizes: [],
   data: function() {
     return {
       item: this.$store.getters.getAllProducts[this.$route.params.id],
-      size: this.$store.getters.getAllSizes[this.$route.params.id]
+      sizes: this.$store.getters.getAllSizes
     };
   },
   components: {

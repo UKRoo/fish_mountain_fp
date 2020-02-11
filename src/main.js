@@ -10,6 +10,7 @@ import 'mdbootstrap/js/popper.js'
 // import '@/assets/js/slick_carousel.js'
 import 'mdbootstrap/js/bootstrap.js'
 // import 'mdbootstrap/js/mdb.js'
+// import 'mdbootstrap/js/addons/rating.min.js'
 
 Vue.config.productionTip = false
 

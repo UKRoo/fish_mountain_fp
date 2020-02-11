@@ -1,14 +1,17 @@
 <template>
   <div class="fs-prod-vw-info">
     <h2>
-      {{ item.title }}
+      {{ item.title }} {{category}}
     </h2>
-    <h2>${{ item.gender }}</h2>
+    <h2>{{ item.gender }}</h2>
     <div class="fs-prod-vw-info-rew flex-sb">
       <h2>
         <b>${{ item.price }}</b>
       </h2>
-      <div>rew</div>
+      <!-- <div class="container">
+  <span id="rateMe1"></span>
+</div> -->
+      <div>27 reviews</div>
     </div>
     <div class="fs-prod-vw-info-style flex-sb">
       <h2>{{ item.style }}</h2>
@@ -50,13 +53,14 @@
   </div>
 </template>
 <script>
-import products from "@/json/products.json.js";
-
 export default {
+  
   data: function() {
     return {
-      item: this.$store.getters.getAllProducts[this.$route.params.id]
+      item: this.$store.getters.getAllProducts[this.$route.params.id],
+      category: this.$store.getters.getAllProducts[this.$route.params.id].categories
     };
-  }
+  },
+ 
 };
 </script>

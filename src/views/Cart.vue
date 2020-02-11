@@ -31,7 +31,7 @@
           <hr />
         </div>
     <div class="d-flex justify-content-center">
-      <button class="btn btn-primary order-btn">ORDER NOW</button>
+      <router-link tag="button" to="/delivery" class="btn btn-primary order-btn">ORDER NOW</router-link>
       </div>
 
       </div>
