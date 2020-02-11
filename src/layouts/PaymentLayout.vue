@@ -3,7 +3,7 @@
     <Header />
     <div class="fs-mount-bg">
       <div class="fs-container">
-        <DeliveryHeader />
+        <PaymentHeader />
         <router-view />
       </div>
     </div>
@@ -19,7 +19,7 @@ import Footer from "@/components/footer/Footer";
 import ModalLogin from "@/components/modal/ModalLogin";
 import ModalCart from "@/components/modal/ModalCart";
 import ModalWish from "@/components/modal/ModalWish";
-import DeliveryHeader from "@/components/delivery/DeliveryHeader";
+import PaymentHeader from "@/components/payment/PaymentHeader";
 
 export default {
   components: {
@@ -28,7 +28,7 @@ export default {
     ModalLogin,
     ModalCart,
     ModalWish,
-    DeliveryHeader
+    PaymentHeader
   }
 };
 </script>

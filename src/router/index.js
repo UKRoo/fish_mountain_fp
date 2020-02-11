@@ -40,6 +40,18 @@ const routes = [
     component: () => import('../views/Delivery')
 },
   {
+    path: '/payment',
+    name: 'payment',
+    meta: {layout: 'Payment'},
+    component: () => import('../views/Payment')
+},
+  {
+    path: '/add-delivery',
+    name: 'add delivery',
+    meta: {layout: 'Delivery'},
+    component: () => import('../components/delivery/AddDelivery')
+},
+  {
     path: '/ct/*/p-0',
     component: Page404
   },
