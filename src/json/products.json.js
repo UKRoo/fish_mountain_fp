@@ -6,14 +6,8 @@ export default [
     "categories": "clothing",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
-    "style": "Fit",
+    "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_1.jpg",
-    "img_gall_url": [
-        "/img/products/product_1.jpg",
-        "/img/products/product_1.jpg",
-        "/img/products/product_1.jpg",
-    ],
     "price": "555",
     "sizes": [
       "S",
@@ -30,20 +24,14 @@ export default [
     "title": "Skinners Barefoot Shoes",
     "subcategories": "hiking-shoes",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_2.jpg",
-    "img_gall_url": [
-        "/img/products/product_2.jpg",
-        "/img/products/product_2.jpg",
-        "/img/products/product_2.jpg",
-    
-    ],
     "price": "75",
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "35",
+      "37",
+      "42",
+      "45"
     ],
     "wishlist": false,
     "cart": false,
@@ -54,13 +42,8 @@ export default [
     "title": "Joma Backpack",
     "subcategories": "camping-fishing",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_3.jpg",
-    "img_gall_url": [
-        "/img/products/product_3.jpg",
-        "/img/products/product_3.jpg",
-        "/img/products/product_3.jpg",
-    ],
     "price": "650",
     "sizes": [
       "S",
@@ -77,13 +60,8 @@ export default [
     "title": "Kempa Attitude",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_4.jpg",
-    "img_gall_url": [
-        "/img/products/product_4.jpg",
-        "/img/products/product_4.jpg",
-        "/img/products/product_4.jpg",
-    ],
     "price": "999",
     "sizes": [
       "S",
@@ -97,16 +75,11 @@ export default [
       {
     "id": "5",
     "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "female",
-    "img_main_url": "/img/products/product_5.jpg",
-    "img_gall_url": [
-        "/img/products/product_5.jpg",
-        "/img/products/product_5.jpg",
-        "/img/products/product_5.jpg",
-    ],
     "price": "250",
     "sizes": [
       "S",
@@ -123,19 +96,14 @@ export default [
     "title": "Skinners Barefoot Shoes",
     "subcategories": "hiking-shoes",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_6.jpg",
-    "img_gall_url": [
-        "/img/products/product_6.jpg",
-        "/img/products/product_6.jpg",
-        "/img/products/product_6.jpg",
-    ],
     "price": "250",
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "35",
+      "37",
+      "42",
+      "45"
     ],
     "wishlist": false,
     "cart": true,
@@ -143,17 +111,12 @@ export default [
       {
     "id": "7",
     "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "male",
-    "img_main_url": "/img/products/product_7.jpg",
-    "img_gall_url": [
-        "/img/products/product_7.jpg",
-        "/img/products/product_7.jpg",
-        "/img/products/product_7.jpg",
-    ],
-    "price": "20050",
+    "price": "257",
     "sizes": [
       "S",
       "M",
@@ -166,16 +129,11 @@ export default [
       {
     "id": "8",
     "categories": "clothing",
-    "title": "The North Face Brigandine FUTURELIGHT Jacket",
+    "title": "The North Face  Jacket",
     "subcategories": "coats-jackets",
     "activity": "Outdoors",
+  "style": "fit",
     "gender": "female",
-    "img_main_url": "/img/products/product_8.jpg",
-    "img_gall_url": [
-        "/img/products/product_8.jpg",
-        "/img/products/product_8.jpg",
-        "/img/products/product_8.jpg",
-    ],
     "price": "250",
     "sizes": [
       "S",
@@ -188,18 +146,12 @@ export default [
   },
   {
   "id": "9",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "categories": "clothing",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
-  "style": "Fit",
+  "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_1.jpg",
-  "img_gall_url": [
-      "/img/products/product_1.jpg",
-      "/img/products/product_1.jpg",
-      "/img/products/product_1.jpg",
-  ],
   "price": "555",
   "sizes": [
     "S",
@@ -216,20 +168,14 @@ export default [
   "title": "Skinners Barefoot Shoes",
   "subcategories": "hiking-shoes",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_2.jpg",
-  "img_gall_url": [
-      "/img/products/product_2.jpg",
-      "/img/products/product_2.jpg",
-      "/img/products/product_2.jpg",
-  
-  ],
   "price": "75",
   "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL"
+    "35",
+    "37",
+    "42",
+    "45"
   ],
   "wishlist": false,
   "cart": false,
@@ -240,13 +186,8 @@ export default [
   "title": "Joma Backpack",
   "subcategories": "camping-fishing",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_3.jpg",
-  "img_gall_url": [
-      "/img/products/product_3.jpg",
-      "/img/products/product_3.jpg",
-      "/img/products/product_3.jpg",
-  ],
   "price": "650",
   "sizes": [
     "S",
@@ -263,13 +204,8 @@ export default [
   "title": "Kempa Attitude",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_4.jpg",
-  "img_gall_url": [
-      "/img/products/product_4.jpg",
-      "/img/products/product_4.jpg",
-      "/img/products/product_4.jpg",
-  ],
   "price": "999",
   "sizes": [
     "S",
@@ -283,16 +219,11 @@ export default [
     {
   "id": "13",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -309,19 +240,14 @@ export default [
   "title": "Skinners Barefoot Shoes",
   "subcategories": "hiking-shoes",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_6.jpg",
-  "img_gall_url": [
-      "/img/products/product_6.jpg",
-      "/img/products/product_6.jpg",
-      "/img/products/product_6.jpg",
-  ],
   "price": "250",
   "sizes": [
-    "S",
-    "M",
-    "L",
-    "XL"
+    "35",
+    "37",
+    "42",
+    "45"
   ],
   "wishlist": false,
   "cart": false,
@@ -329,16 +255,11 @@ export default [
     {
   "id": "15",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "male",
-  "img_main_url": "/img/products/product_7.jpg",
-  "img_gall_url": [
-      "/img/products/product_7.jpg",
-      "/img/products/product_7.jpg",
-      "/img/products/product_7.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -352,16 +273,11 @@ export default [
     {
   "id": "16",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_8.jpg",
-  "img_gall_url": [
-      "/img/products/product_8.jpg",
-      "/img/products/product_8.jpg",
-      "/img/products/product_8.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -375,16 +291,11 @@ export default [
 {
   "id": "17",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -398,16 +309,11 @@ export default [
 {
   "id": "18",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -421,16 +327,11 @@ export default [
 {
   "id": "19",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -444,16 +345,11 @@ export default [
 {
   "id": "20",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -467,16 +363,11 @@ export default [
 {
   "id": "21",
   "categories": "clothing",
-  "title": "The North Face Brigandine FUTURELIGHT Jacket",
+  "title": "The North Face  Jacket",
   "subcategories": "coats-jackets",
   "activity": "Outdoors",
+  "style": "fit",
   "gender": "female",
-  "img_main_url": "/img/products/product_5.jpg",
-  "img_gall_url": [
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-      "/img/products/product_5.jpg",
-  ],
   "price": "250",
   "sizes": [
     "S",
@@ -487,32 +378,64 @@ export default [
   "wishlist": false,
   "cart": false,
 },
+{
+  "id": "22",
+  "categories": "clothing",
+  "title": "The North Face  Jacket",
+  "subcategories": "coats-jackets",
+  "activity": "Outdoors",
+  "style": "fit",
+  "gender": "male",
+  "price": "250",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "wishlist": false,
+  "cart": false,
+  "look": true,
+},
+{
+  "id": "23",
+  "categories": "clothing",
+  "title": "The North Face  Jacket",
+  "subcategories": "coats-jackets",
+  "activity": "Outdoors",
+  "style": "fit",
+  "gender": "male",
+  "price": "250",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "wishlist": false,
+  "cart": false,
+  "look": true,
+},
+{
+  "id": "24",
+  "categories": "clothing",
+  "title": "The North Face  Jacket",
+  "subcategories": "coats-jackets",
+  "activity": "Outdoors",
+  "style": "fit",
+  "gender": "male",
+ 
+
+  "price": "250",
+  "sizes": [
+    "35",
+    "37",
+    "42",
+    "45"
+  ],
+  "wishlist": false,
+  "cart": false,
+  "look": true,
+},
+
 ]
-
-
-
-//   { title: "All clothing", url: "/clothing" },
-//   { title: "Coats & Jackets", url: "/clothing/coats-jackets" },
-//   { title: "T-Shirts & Singlets", url: "/clothing/t-shirts-singlets" },
-//   { title: "Tops", url: "/clothing/tops" },
-//   { title: "Bottoms", url: "/clothing/bottoms" },
-//   { title: "Swimwear", url: "/clothing/swimwear" },
-//   { title: "See More...", url: "/clothing" }
-// ],
-// footwear_links: [
-//   { title: "All footwear", url: "/footwear" },
-//   { title: "Trekking footwear", url: "/footwear/trekking" },
-//   { title: "Hiking shoes", url: "/footwear/hiking-shoes" },
-//   { title: "Winter boots", url: "/footwear/winter-boots" },
-//   { title: "Multifunctional shoes", url: "/footwear/multifunctional-shoes" },
-//   { title: "Leisure shoes", url: "/footwear/leisure-shoes" },
-//   { title: "See More...", url: "/footwear" },
-// ],
-// equipment_links: [
-//   { title: "All Equipment", url: "/equipment" },
-//   { title: "Camping & Fishing", url: "/equipment/camping-fishing" },
-//   { title: "Exercise & Fitness", url: "/equipment/exercise-fitness" },
-//   { title: "Swimming & Water Sports", url: "/equipment/swimming-water-sports" },
-//   { title: "Hiking & Trekking", url: "/equipment/hiking-trekking" },
-//   { title: "See More...", url: "/equipment" },
-// ]

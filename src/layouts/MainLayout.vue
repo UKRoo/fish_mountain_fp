@@ -6,6 +6,7 @@
     <ModalLogin />
     <ModalCart />
     <ModalWish />
+    <modalSizeGuide />
   </div>
 </template>
 <script>
@@ -14,6 +15,7 @@ import Footer from "@/components/footer/Footer";
 import ModalLogin from "@/components/modal/ModalLogin";
 import ModalCart from "@/components/modal/ModalCart";
 import ModalWish from "@/components/modal/ModalWish";
+import modalSizeGuide from "@/components/modal/ModalSizeGuide";
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Footer,
     ModalLogin,
     ModalCart,
-    ModalWish
+    ModalWish,
+    modalSizeGuide
   }
 };
 </script>

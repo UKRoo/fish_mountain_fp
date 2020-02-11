@@ -11,9 +11,29 @@
     <div id="collapse-2" class="collapse" aria-labelledby="heading-2"
       data-parent="#accordionProductSearch">
       <div class="card-body">
-       2
+                 <div class="custom-control custom-checkbox" v-for="activity in activitys" :key="activity">
+           <input class="custom-control-input" type="checkbox" :id="activity">
+          <label class="custom-control-label" :for="activity">{{ activity }}</label>
+  </div>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  data: function() {
+   return {
+        activitys: [
+    "activity1",
+    "activity2",
+    "activity3",
+    "activity4",
+    "activity5",
+  ]
+   } 
+   
+
+  },
+}
+</script>
 

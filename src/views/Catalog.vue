@@ -14,7 +14,7 @@
             ></i>
           </div>
           <router-link :to="`/ct/${item.categories}/p-${item.id}`">
-            <img :src="`${item.img_main_url}`" :alt="`${item.title}`" />
+             <img :src="`/img/products/product_${item.id}.png`" />
           </router-link>
           <div class="main-goods-tile-desc">
             <div class="text-center">
@@ -25,13 +25,11 @@
                 <i class="fas fa-square-full"></i>
               </div>
             </div>
-            <h3>{{ item.activity }}</h3>
+            <h2>{{ item.gender }}'s {{ item.activity }}</h2>
             <h2>{{ item.title }}</h2>
             <h2>${{ item.price }}</h2>
-            <h2>{{ item.gender }}</h2>
           </div>
         </div>
-        {{}}
         <SubcategoryDescription />
       </div>
     </div>

@@ -21,10 +21,10 @@
               </thead>
               <tbody> 
                 <tr v-for="item in items" :key="item.id">
-                  <th scope="row"><router-link to=""><i 
+                  <th scope="row"><a><i 
                   v-on:click="item.wishlist = !item.wishlist"
-                  class="fas fa-times"></i></router-link></th>
-                  <td><img :src="`/img/products/product_${item.id}.jpg`" alt=""></td>
+                  class="fas fa-times"></i></a></th>
+                  <td><img :src="`/img/products/product_${item.id}.png`" alt=""></td>
                   <td>{{item.title}}<br>{{item.gender}}</td>
                   <td>${{item.price}}</td>
                 </tr>
@@ -33,7 +33,7 @@
           </div>
           <!--Footer-->
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <router-link tag="button" to="/wishlist" type="button" class="btn btn-outline-primary" data-dismiss="modal">SEE ALL ITEMS</router-link>
           </div>
         </div>
       </div>
@@ -47,6 +47,9 @@ img {
 }
 .fa-times {
   color: #302640;
+}
+.modal-footer {
+  justify-content: center !important;
 }
 </style>
 <script>

@@ -11,8 +11,28 @@
     <div id="collapse-6" class="collapse" aria-labelledby="heading-6"
       data-parent="#accordionProductSearch">
       <div class="card-body">
-     MATERIAL
+
+          <div class="custom-control custom-checkbox" v-for="material in materials" :key="material">
+           <input class="custom-control-input" type="checkbox" :id="material">
+          <label class="custom-control-label" :for="material">{{ material }}</label>
+  </div>
+
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  data: function() {
+   return {
+        materials: [
+    "Leather",
+    "Caton",
+    "Paper",
+    "Straw",
+    "Rubber",
+  ]
+   } 
+  },
+}
+</script>

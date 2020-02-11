@@ -33,10 +33,10 @@
               </thead>
               <tbody>
                 <tr v-for="item in items" :key="item.id">
-                  <th scope="row"><router-link to=""><i 
+                  <th scope="row"><a><i 
                   v-on:click="item.cart = !item.cart"
-                  class="fas fa-times"></i></router-link></th>
-                  <td><img :src="`/img/products/product_${item.id}.jpg`" alt=""></td>
+                  class="fas fa-times"></i></a></th>
+                  <td><img :src="`/img/products/product_${item.id}.png`" alt=""></td>
                   <td>{{item.title}}<br>{{item.gender}}</td>
                   <td>1</td>
                   <td>${{item.price}}</td>
@@ -60,11 +60,10 @@
             >
               Close
             </button>
-            <button class="btn btn-primary">Checkout</button>
+            <router-link tag="button" to="/cart" class="btn btn-primary" data-dismiss="modal">Checkout</router-link>
           </div>
         </div>
       </div>
-      {{test}}
     </div>
     <!-- Modal: modalCart -->
   </section>
@@ -85,11 +84,9 @@ export default {
       return this.$store.getters.getCart;
     },
     totalPrice () {
-      return this.items.reduce((acc, item) => acc + (item.price * 1), 0);
+      return this.items.reduce((total, item) => total + (item.price * 1), 0);
     },
-    test () {
-     return console.log(1) //!!TESTTTTT
-    },
+
   }
 };
 </script>

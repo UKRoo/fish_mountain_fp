@@ -17,7 +17,7 @@
   <label class="custom-control-label" for="groupGenderFemale">Female</label>
 </div>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="groupGenderMale" name="groupGender" checked>
+  <input type="radio" class="custom-control-input" id="groupGenderMale" name="groupGender">
   <label class="custom-control-label" for="groupGenderMale">Male</label>
 </div>
       </div>

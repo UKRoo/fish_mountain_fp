@@ -28,7 +28,6 @@ letter-spacing: 0.06em;
 color: #302640;
 }
 
-//////Flex/////
 .flex-sb {
   display: flex;
   justify-content: space-between;
@@ -91,9 +90,7 @@ color: #302640;
   }
 }
 
-/////
 .header-middle-menu {
-  // height: 50px;
   width: 100%;
   color: $base-purple;
   margin-top: 5px;
@@ -138,7 +135,6 @@ color: #302640;
   -ms-transform: translateY(-45%);
   transform: translateY(-45%);
   background-color: hsla(263, 25%, 20%, 0.459);
-  // border: 1px solid #302640;
   border-top-right-radius: 80%;
   border-bottom-right-radius: 80%;
 }
@@ -177,7 +173,6 @@ color: #302640;
 
 
 .product {
-  // width: 100%;
   height: 480px;
   margin: 58px;
 }
@@ -334,7 +329,6 @@ footer {
   overflow: hidden;
   background-color: $base-bg-color;
   padding-top: 5px;
-  // justify-content: flex-start;
   align-content: space-between;
 }
 
@@ -464,7 +458,6 @@ footer {
 }
 
 
-//----- Modal cart------//////
 .btn-outline-primary {
   color: #FCC43E !important;
   background-color: transparent !important;
@@ -853,13 +846,10 @@ header {
   cursor: pointer;
 }
 
-
-//!!
 .fs-container-prod {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
 
 .main-goods {
@@ -868,7 +858,9 @@ header {
   justify-content: space-around;
   padding: 10px;
 }
-
+.in_wish {
+  color: red;
+}
 .main-goods-tile {
   width: 280px;
   border: 1px;
@@ -881,13 +873,11 @@ i {
   font-size: 25px;
   cursor: pointer;
 }
-.in_wish {
-  color: red;
 
-}
  }
  img {
    max-height: 274px;
+   width: 273px;
  }
   .main-goods-tile-desc {
     display: flex;
@@ -1115,7 +1105,6 @@ i {
 }
 
 .fs-prod-vw-gall-main {
-  // background-color: green;
   width: 610px;
   padding-right: 65px;
   padding-bottom: 77px;
@@ -1123,25 +1112,14 @@ i {
 
 .fs-prod-vw-info {
   h2 {
-    // font-family: Muli;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    // color: #302640;
   }
 
-  .fs-prod-vw-info-rew {
-
-    color: red;
-  }
-
-  .fs-prod-vw-info-style {
-
-    color: green;
-  }
 
   .fs-prod-vw-info-size {
     h3 {
@@ -1151,7 +1129,7 @@ i {
       font-size: 14px;
       line-height: 18px;
       letter-spacing: 0.06em;
-      text-transform: capitalize;
+      text-transform: none;
       color: #302640;
 
       a {
@@ -1176,6 +1154,7 @@ i {
   }
 
   .fs-prod-vw-info-color {
+      margin-bottom: 74px;
     h3 {
       font-family: Muli;
       font-style: normal;
@@ -1183,39 +1162,12 @@ i {
       font-size: 14px;
       line-height: 18px;
       letter-spacing: 0.06em;
-      text-transform: capitalize;
+      text-transform: none;
       color: #302640;
     }
 
-    .fs-select-color {
-      display: flex;
-      flex-direction: column;
-
-      .color-block {
-        display: flex;
-      }
-
-      .fs-select-color-1 {
-        width: 44px;
-        height: 44px;
-        border: 1px solid #E6E6E6;
-        background-color: #55E590;
-        cursor: pointer;
-        margin-right: 18px;
-      }
-
-      .fs-select-color-2 {
-        width: 44px;
-        height: 44px;
-        border: 1px solid #E6E6E6;
-        background-color: #E26930;
-        cursor: pointer;
-      }
-    }
 
     .fs-select-qty {
-
-      // background-color: green;
       .custom-select {
         color: #302640;
         width: 76px;
@@ -1229,8 +1181,33 @@ i {
   }
 
 }
+.fs-select-color {
+  display: flex;
+  flex-direction: column;
 
-//!Gallery Slider PV
+  .color-block {
+    display: flex;
+  }
+
+  .fs-select-color-1 {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #E6E6E6;
+    background-color: #55E590;
+    cursor: pointer;
+    margin-right: 18px;
+  }
+
+  .fs-select-color-2 {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #E6E6E6;
+    background-color: #E26930;
+    cursor: pointer;
+  }
+}
+
+
 .product-view-gall-add-photo {
 
   h2 {
@@ -1252,11 +1229,7 @@ i {
   padding-bottom: 80px;
 }
 
-.product-view-tab-info {
-  height: 392px;
-  background-color: green;
-  padding-bottom: 79px;
-}
+
 
 .wishlist-container {
   h2 {
@@ -1368,7 +1341,6 @@ i {
   }
 
   .cart-product-tile {
-    display: flex;
     flex-grow: 2;
   }
 
@@ -1378,6 +1350,8 @@ i {
   }
 
   .cart-product-tile-icons {
+    display: flex;
+    align-items: center;
     i {
       padding-left: 18px;
       padding-right: 18px;

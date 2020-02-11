@@ -2,7 +2,6 @@ export default [
     // {},
     {
       "categories": "clothing",
-      "gender": "man",
       "sizes": [
         "S",
         "M",
@@ -13,7 +12,6 @@ export default [
     },
     {
       "categories": "footwear",
-      "gender": "man",
       "sizes": [
         "39",
         "42",
