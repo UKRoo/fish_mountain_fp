@@ -10,6 +10,7 @@
 import { mapGetters, mapActions } from "vuex";
 import MainLayout from '@/layouts/MainLayout'
 import DeliveryLayout from '@/layouts/DeliveryLayout'
+import PaymentLayout from '@/layouts/PaymentLayout'
 import AccountLayout from '@/layouts/AccountLayout'
 
 export default {
@@ -34,7 +35,8 @@ export default {
   components: {
     MainLayout,
     DeliveryLayout,
-    AccountLayout
+    AccountLayout,
+    PaymentLayout
   },
   mounted() {
     this.fetchProducts();
