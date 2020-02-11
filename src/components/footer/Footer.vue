@@ -10,13 +10,13 @@
           <router-link to="/ct/">
             <li>Categories</li>
           </router-link>
-          <router-link to="#">
+          <router-link to="/wishlist">
             <li>Viewed & liked</li>
           </router-link>
-          <router-link to="#">
+          <router-link to="/contact">
             <li>About us</li>
           </router-link>
-          <router-link to="/contact/">
+          <router-link to="/contact">
             <li>Contacts</li>
           </router-link>
         </ul>

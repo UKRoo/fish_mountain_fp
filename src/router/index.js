@@ -24,8 +24,7 @@ const routes = [
   },
   {
     path: '/contact',
-    name: 'contact',
-    component: () => import('../views/Contact')
+    component: Page404,
   },
   {
     path: '/cart',
