@@ -1426,3 +1426,37 @@ i {
     margin: 35px 0 71px 0;
   }
 }
+
+.custom-range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 38, 64, 0.25);
+}
+
+.custom-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem  rgba(48, 38, 64, 0.25);
+}
+
+.custom-range:focus::-ms-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 38, 64, 0.25);
+}
+
+.custom-range::-webkit-slider-thumb {
+  background-color: #302640;
+}
+
+.custom-range::-webkit-slider-thumb:active {
+  background-color: rgba(127, 100, 172, 0.341);
+}
+
+.custom-range::-webkit-slider-runnable-track {
+  background-color: #dee2e6;
+}
+
+.custom-range::-moz-range-thumb {
+  background-color: #302640;
+}
+.custom-range::-ms-thumb {
+  background-color: #302640;
+}
+.custom-range::-ms-thumb:active {
+  background-color: rgba(127, 100, 172, 0.341);
+}

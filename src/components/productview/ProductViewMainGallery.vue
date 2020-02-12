@@ -2,12 +2,12 @@
   <div class="fs-prod-vw-gall-main">
     <div>
       <div class="slider slider-for">
-        <div v-for="n in 3" class="main-img">
+        <div v-for="(n, index) in 3" :key="index" class="main-img">
           <img :src="`/img/products/product_vw_${$route.params.id}_${n}.png`" />
         </div>
       </div>
       <div class="slider slider-nav">
-        <div v-for="n in 3">
+        <div v-for="(n, index) in 3" :key="index">
           <img :src="`/img/products/product_vw_${$route.params.id}_${n}.png`" />
         </div>
       </div>
