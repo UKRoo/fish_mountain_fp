@@ -25,7 +25,7 @@
                   v-on:click="item.wishlist = !item.wishlist"
                   class="fas fa-times"></i></a></th>
                   <td><img :src="`/img/products/product_${item.id}.png`" alt=""></td>
-                  <td>{{item.title}}<br>{{item.gender}}</td>
+                  <td><router-link :to="`/ct/${item.categories}/p-${item.id}`" data-dismiss="modal">{{item.title}}<br>{{item.gender}}</router-link></td>
                   <td>${{item.price}}</td>
                 </tr>
               </tbody>
@@ -45,8 +45,8 @@
 img {
   height: 60px;
 }
-.fa-times {
-  color: #302640;
+.fa-times, a {
+  color: #302640 !important;
 }
 .modal-footer {
   justify-content: center !important;

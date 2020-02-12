@@ -3,7 +3,7 @@
         <h2>Payment options</h2>
         <div class="pay-logo">
             <div v-for="(n, index) in 6" :key="index">
-                <img :src="`/img/pay/pay_${n}.png`">
+                <router-link to="/"><img :src="`/img/pay/pay_${n}.png`"></router-link>
             </div>
         </div>
     </div>
