@@ -25,7 +25,6 @@
   right:-10%;
   top:-2%;
   content: attr(data-count);
-  // font-size:40%;
   padding:.6em;
   border-radius:999px;
   line-height:.75em;
